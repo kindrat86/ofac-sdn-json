@@ -1,0 +1,3 @@
+# The generated dataset is the product, not source. Keeping it out of language
+# stats stops GitHub from reporting this as a JSON repository.
+data/* linguist-generated=true

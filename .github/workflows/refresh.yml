@@ -1,0 +1,58 @@
+name: Refresh OFAC SDN list
+
+# OFAC publishes irregularly — sometimes several times a week, sometimes not for
+# days. Checking daily and committing only on a real change keeps the history a
+# log of OFAC's actual publications rather than a log of this workflow running.
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild from OFAC
+        run: python3 build.py
+
+      - name: Sanity-check the output
+        # build.py already refuses to write a truncated or undated list. This is
+        # the second gate: never commit a file the repo would be worse for having.
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open("data/metadata.json"))
+          n = d["counts"]["entries"]
+          assert n >= 5000, f"only {n} entries"
+          assert d["published"], "no OFAC publication date"
+          rows = sum(1 for _ in open("data/ofac-sdn.csv", encoding="utf-8")) - 1
+          assert rows == n, f"csv has {rows} rows but metadata says {n}"
+          print(f"ok: {n} entries, OFAC published {d['published']}")
+          PY
+
+      - name: Commit if OFAC published something new
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/; then
+            echo "no change since last run"
+            exit 0
+          fi
+          PUB=$(python3 -c "import json;print(json.load(open('data/metadata.json'))['published'])")
+          N=$(python3 -c "import json;print(json.load(open('data/metadata.json'))['counts']['entries'])")
+          git add data/
+          git commit -m "data: OFAC SDN list published ${PUB} (${N} entries)"
+          git push
