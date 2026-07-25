@@ -172,3 +172,8 @@ Cite as:
   landing page, if you'd rather link to something readable.
 - **[Screening API](https://sanctionsai.dev/docs)** — fuzzy matching, wallet-address screening
   and audit logging, for when name-equality isn't enough. Has a free tier.
+- **MCP server** — screen counterparties from Claude, Cursor or any MCP client:
+
+  ```json
+  { "mcpServers": { "sanctions": { "command": "npx", "args": ["-y", "sanctions-mcp"] } } }
+  ```
