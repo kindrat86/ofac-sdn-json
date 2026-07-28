@@ -1,31 +1,31 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19254 designated entries and 20350 alternate identities (39604 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-07-23 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19157 designated entries and 20159 alternate identities (39316 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-07-24 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-07-23",
- "retrieved": "2026-07-27",
+ "published": "2026-07-24",
+ "retrieved": "2026-07-28",
  "counts": {
-  "entries": 19254,
-  "alternateNames": 20350,
-  "totalNames": 39604
+  "entries": 19157,
+  "alternateNames": 20159,
+  "totalNames": 39316
  },
  "typeCounts": {
-  "entity": 9873,
-  "individual": 7520,
-  "vessel": 1517,
+  "entity": 9825,
+  "individual": 7472,
+  "vessel": 1516,
   "aircraft": 344
  },
  "topPrograms": [
   [
    "RUSSIA-EO14024",
-   6353
+   6349
   ],
   [
    "SDGT",
-   3249
+   3240
   ],
   [
    "IFSR",
@@ -33,11 +33,11 @@
   ],
   [
    "SDNTK",
-   1400
+   1372
   ],
   [
    "NPWMD",
-   1174
+   1173
   ],
   [
    "IRAN-EO13902",
@@ -45,7 +45,7 @@
   ],
   [
    "GLOMAG",
-   740
+   739
   ],
   [
    "ILLICIT-DRUGS-EO14059",
@@ -57,7 +57,7 @@
   ],
   [
    "UKRAINE-EO13662",
-   533
+   536
   ],
   [
    "IRAN-EO13846",
@@ -65,7 +65,7 @@
   ],
   [
    "TCO",
-   416
+   415
   ],
   [
    "IRGC",
@@ -814,15 +814,6 @@
    ]
   },
   {
-   "uid": 4107,
-   "name": "RODRIGUEZ OREJUELA, Gilberto Jose",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 4108,
    "name": "RODRIGUEZ OREJUELA, Miguel Angel",
    "type": "individual",
@@ -1423,13 +1414,7 @@
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "AMESCUA, Chuey",
-    "AMEZCUA, Chuy",
-    "AMEZCUA CONTRERAS, Jesus",
-    "AMEZCUA, Jose de Jesus",
-    "HERNANDEZ, Adan"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 6704,
@@ -1438,26 +1423,7 @@
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "AMEZCUA, Luis",
-    "CONTRERAS, Luis C.",
-    "LOPEZ, Luis",
-    "LOZANO, Eduardo",
-    "OCHOA, Salvador",
-    "RODRIGUEZ LOPEZ, Sergio"
-   ]
-  },
-  {
-   "uid": 6706,
-   "name": "ARELLANO FELIX, Ramon Eduardo",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "COMACHO RODRIGUES, Gilberto",
-    "TORRES MENDEZ, Ramon"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 6707,
@@ -1482,61 +1448,6 @@
    ]
   },
   {
-   "uid": 6709,
-   "name": "CHANG, Chi Fu",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "KHUN SA",
-    "CHAN, Changtrakul",
-    "CHANG, Shi-Fu",
-    "CHANG, Xifu",
-    "CHANGTRAKUL, Chan"
-   ]
-  },
-  {
-   "uid": 6710,
-   "name": "HEATH, Noel Timothy",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "ZAMBA, Noel Heath",
-    "ZAMBO, Noel Heath"
-   ]
-  },
-  {
-   "uid": 6712,
-   "name": "OGUNGBUYI, Oluwole A.",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "ADEMULERO, Babestan Oluwole",
-    "BABESTAN, Wole A.",
-    "OGUNGBUYI, Wally",
-    "OGUNGBUYI, Wole A.",
-    "SHOFESO, Olatude I.",
-    "SHOFESO, Olatunde Irewole"
-   ]
-  },
-  {
-   "uid": 6713,
-   "name": "OGUNGBUYI, Abeni O.",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "BABESTAN, Abeni O.",
-    "SHOFESO, Olatutu Temitope"
-   ]
-  },
-  {
    "uid": 6714,
    "name": "WEI, Hsueh Kang",
    "type": "individual",
@@ -1546,13 +1457,7 @@
    "alternateNames": [
     "CHARNCHAI, Chiwinnitipanya",
     "CHIVINNITIPANYA, Prasit",
-    "CHIWINNITIPANYA, Charnchai",
-    "PRASIT, Chivinnitipanya",
-    "PRASIT, Cheewinnittipanya",
-    "WEI, Shao-Kang",
-    "WEI, Sia-Kang",
-    "WEI, Xuekang",
-    "CHEEWINNITTIPANYA, Prasit"
+    "WEI, Xuekang"
    ]
   },
   {
@@ -1567,62 +1472,6 @@
   {
    "uid": 6717,
    "name": "HENAO MONTOYA, Arcangel de Jesus",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 6719,
-   "name": "AGRICOLA GANADERA HENAO GONZALEZ Y CIA. S.C.S.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 6720,
-   "name": "COMPANIA AGROINVERSORA HENAGRO LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 6721,
-   "name": "DESARROLLOS COMERCIALES E INDUSTRIALES HENAO GONZALEZ Y CIA. S.C.S.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 6722,
-   "name": "MAQUINARIA TECNICA Y TIERRAS LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "M.T.T. LTDA."
-   ]
-  },
-  {
-   "uid": 6723,
-   "name": "ORGANIZACION EMPRESARIAL A DE J HENAO M E HIJOS Y CIA. S.C.S.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 6724,
-   "name": "GONZALEZ BENITEZ, Olga Patricia",
    "type": "individual",
    "programs": [
     "SDNT"
@@ -1697,37 +1546,13 @@
    ]
   },
   {
-   "uid": 6856,
-   "name": "AFGHAN, Sher",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "AFGHAN, Shir",
-    "KHAN, Abdullah",
-    "AZIZ, Mohammad",
-    "AFGHAN, Shear"
-   ]
-  },
-  {
    "uid": 6857,
    "name": "CARDENAS GUILLEN, Osiel",
    "type": "individual",
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "CARDENAS GULLEN, Osiel",
-    "CARDENAS CASTILLO, Osiel",
-    "CARDENAS GILLEN, Osiel",
-    "CARDENAS GUILLEN, Ociel",
-    "CARDENAS GUILLEN, Oscar",
-    "CARDENAS GUILLEN, Oziel",
-    "CARDENAS TUILLEN, Osiel",
-    "SALINA AGUILAR, Jorge",
-    "SALINAS AGUILAR, Jorge"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 6858,
@@ -1737,31 +1562,6 @@
     "SDNTK"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 6859,
-   "name": "CHANG, Ping Yun",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "KHUN, Saeng"
-   ]
-  },
-  {
-   "uid": 6860,
-   "name": "GILBOA, Joseph",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "GILBOA, Yosef",
-    "GILBOA, Joseph Papzian",
-    "GILBERT, Joseph",
-    "GIL, Josef"
-   ]
   },
   {
    "uid": 6861,
@@ -1792,96 +1592,13 @@
    ]
   },
   {
-   "uid": 6862,
-   "name": "HAMIEH, Jamiel",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "HAMIAH, Jamiel",
-    "HAMEIAH, Jamel",
-    "HAMEIAH, Mamil",
-    "HAMEIH, Jamill",
-    "HAMIAEH, Jamil",
-    "HAMIE, Jamil Abdulkarim",
-    "HAMIEAH, Jamiel",
-    "HAMEIAH, Jamil",
-    "HAMEIEH, Jamil",
-    "HAMER, Jamil",
-    "HAMIE, Jamil",
-    "HAMIE, Jamile",
-    "HAMIEAH, Jamil",
-    "HAMIEH, Jamal",
-    "HAMIEH, Jamil",
-    "HAMIEL, Jamil",
-    "HAMIEYYEH, Jamil",
-    "HAMIYA, Abdul Jamil",
-    "HAMIYYAH, Jamil",
-    "HAMYH, Jamil",
-    "KARIM, Jamil Abdul",
-    "NEZAM, Abu",
-    "HAMIEH, Mamil",
-    "HAMIEYE, Jamil",
-    "HAMIL, Jamil",
-    "HAMIYE, Jamil",
-    "HAMIYYEH, Jamil",
-    "NAZIM, Abou",
-    "NIZAM, Abou"
-   ]
-  },
-  {
-   "uid": 6863,
-   "name": "HIGUERA GUERRERO, Ismael",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 6864,
-   "name": "KHAN, Nasir Ali",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "KHAN, Ali",
-    "KHAN, Nafir Ali",
-    "KHAN, Nazir Ali",
-    "KHAN, Nisan Ali",
-    "KHAN, Nisar Ali",
-    "NASIR, Ali Khan",
-    "NASIR, Khan Ali"
-   ]
-  },
-  {
    "uid": 6865,
    "name": "MALHERBE DE LEON, Oscar",
    "type": "individual",
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "BECERRA, Martin",
-    "BECERRA MIRELES, Martin",
-    "MACHERBE, Oscar",
-    "MAHLERBE, Oscar",
-    "MALARBE, Oscar",
-    "MALERHBE DE LEON, Oscar",
-    "MALHARBE DE LEON, Oscar",
-    "MALHERBE DELEON, Oscar",
-    "MALMERBE, Oscar",
-    "MELARBE, Oscar",
-    "QALHARBE DE LEON, Oscar",
-    "MAHERBE, Oscar",
-    "MAHLERBE, Polo",
-    "MALERBE, Oscar",
-    "MALERVA, Oscar",
-    "NALHERBE, Oscar",
-    "VARGAS, Jorge"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 6866,
@@ -1890,19 +1607,7 @@
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "ALCIDES MAGANA, Ramon",
-    "ALCIDEZ MAGANA, Ramon",
-    "ALCIDES MAYENA, Ramon",
-    "MAGNA ALCIDEDES, Ramon",
-    "ALCIDES MAGANE, Ramon",
-    "ROMERO, Antonio",
-    "GONZALEZ QUIONES, Jorge",
-    "MAGANA, Jorge",
-    "MAGANA ALCIDES, Ramon",
-    "MATA, Alcides",
-    "RAMON MAGANA, Alcedis"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 6895,
@@ -2461,7 +2166,8 @@
    "name": "AWEYS, Hassan Dahir",
    "type": "individual",
    "programs": [
-    "SDGT"
+    "SDGT",
+    "SOMALIA"
    ],
    "alternateNames": [
     "ALI, Sheikh Hassan Dahir Aweys",
@@ -2547,18 +2253,6 @@
    "alternateNames": [
     "MAJID, Abdul",
     "MAJEED, Chaudhry Abdul"
-   ]
-  },
-  {
-   "uid": 7138,
-   "name": "TUFAIL, Mohammed",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "TUFAIL, Sheik Mohammed",
-    "TUFAIL, S.M."
    ]
   },
   {
@@ -3751,15 +3445,6 @@
   {
    "uid": 7284,
    "name": "AGROPECUARIA MIRALINDO S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 7285,
-   "name": "ARIZONA S.A.",
    "type": "entity",
    "programs": [
     "SDNT"
@@ -8157,15 +7842,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8222,
-   "name": "ZERFAOUI, Ahmad",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8223,
    "name": "AL-HARAMAIN & AL MASJED AL-AQSA CHARITY FOUNDATION : BOSNIA BRANCH",
    "type": "entity",
@@ -8441,17 +8117,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8253,
-   "name": "ZEVALLOS GONZALES, Winston Ricardo",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "ZEVALLOS GONZALES, Ricardo"
-   ]
-  },
-  {
    "uid": 8254,
    "name": "AERO CONTINENTE (USA) INC.",
    "type": "entity",
@@ -8537,17 +8202,6 @@
    "alternateNames": [
     "AL-AQIL, Aqeel Abdulaziz",
     "ALAQEEL, Aqeel Abdulaziz A."
-   ]
-  },
-  {
-   "uid": 8264,
-   "name": "AL-TURKI, Hassan Abdullah Hersi",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL-TURKI, Hassan"
    ]
   },
   {
@@ -8675,36 +8329,9 @@
    "alternateNames": []
   },
   {
-   "uid": 8306,
-   "name": "A.W.A. ENGINEERING LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8307,
    "name": "ABBAS, Abdul Hussein",
    "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8309,
-   "name": "ADMINCHECK LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8310,
-   "name": "ADVANCED ELECTRONICS DEVELOPMENT, LTD",
-   "type": "entity",
    "programs": [
     "IRAQ2"
    ],
@@ -8949,44 +8576,8 @@
    "alternateNames": []
   },
   {
-   "uid": 8341,
-   "name": "ARAB PETROLEUM ENGINEERING COMPANY LTD",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8342,
    "name": "ARAB PROJECTS COMPANY S.A. LTD.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8345,
-   "name": "ARCHI CENTRE I.C.E. LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8346,
-   "name": "ARCHICONSULT LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8347,
-   "name": "ASSOCIATED ENGINEERS",
    "type": "entity",
    "programs": [
     "IRAQ2"
@@ -8997,51 +8588,6 @@
    "uid": 8348,
    "name": "ATIA, Hachim K.",
    "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8349,
-   "name": "ATIA, Hachim K.",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8350,
-   "name": "ATIA, Hachim K.",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8351,
-   "name": "ATLAS AIR CONDITIONING COMPANY LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8352,
-   "name": "ATLAS EQUIPMENT COMPANY LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8354,
-   "name": "BAROON SHIPPING COMPANY LIMITED",
-   "type": "entity",
    "programs": [
     "IRAQ2"
    ],
@@ -9059,24 +8605,6 @@
   {
    "uid": 8359,
    "name": "DURAND PROPERTIES LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8360,
-   "name": "ENDSHIRE EXPORT MARKETING",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8364,
-   "name": "FALCON SYSTEMS",
    "type": "entity",
    "programs": [
     "IRAQ2"
@@ -9111,17 +8639,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8368,
-   "name": "H & H METALFORM GMBH",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "H AND H METALFORM GMBH"
-   ]
-  },
-  {
    "uid": 8369,
    "name": "HABIB, Mohammed Turki",
    "type": "individual",
@@ -9138,72 +8655,6 @@
     "IRAQ2"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 8371,
-   "name": "I.P.C. INTERNATIONAL LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8372,
-   "name": "I.P.C. MARKETING LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8373,
-   "name": "INVESTACAST PRECISION CASTINGS, LTD.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8374,
-   "name": "IRAQI ALLIED SERVICES LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8375,
-   "name": "IRAQI FREIGHT SERVICES LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8376,
-   "name": "IRAQI TRADE CENTER",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8377,
-   "name": "JARACO S.A.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "SOKTAR",
-    "TRADACO S.A."
-   ]
   },
   {
    "uid": 8378,
@@ -9244,15 +8695,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8383,
-   "name": "KEENCLOUD LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8384,
    "name": "KHALIL, Dr. Ahmad Murtada Ahmad",
    "type": "individual",
@@ -9274,15 +8716,6 @@
     "ABDULMALIK, Abdul Hameed",
     "RAFIQ, Assem"
    ]
-  },
-  {
-   "uid": 8387,
-   "name": "MEED INTERNATIONAL LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 8388,
@@ -9325,54 +8758,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8393,
-   "name": "ORIENT SHIPPING LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8394,
-   "name": "PANDORA SHIPPING CO. S.A.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8395,
-   "name": "PETRA NAVIGATION & INTERNATIONAL TRADING CO. LTD.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "AL PETRA COMPANY FOR GOODS TRANSPORT LTD",
-    "PETRA NAVIGATION AND INTERNATIONAL TRADING CO. LTD."
-   ]
-  },
-  {
-   "uid": 8396,
-   "name": "RAJBROOK LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8397,
-   "name": "REYNOLDS AND WILSON, LTD.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8399,
    "name": "RZOOKI, Hanna",
    "type": "individual",
@@ -9391,24 +8776,6 @@
    "alternateNames": [
     "SALEH, Abdel Moneim Ahmad"
    ]
-  },
-  {
-   "uid": 8403,
-   "name": "T N K FABRICS LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8404,
-   "name": "T.E.G. LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 8405,
@@ -9466,26 +8833,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8411,
-   "name": "TRADING & MARITIME INVESTMENTS",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "TRADING AND MARITIME INVESTMENTS"
-   ]
-  },
-  {
-   "uid": 8412,
-   "name": "U.I. INTERNATIONAL",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8413,
    "name": "ZAHRAN, Yousuf",
    "type": "individual",
@@ -9502,26 +8849,6 @@
     "IRAQ2"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 8415,
-   "name": "WHALE SHIPPING LTD.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8416,
-   "name": "A.T.E. INTERNATIONAL LTD.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "RWR INTERNATIONAL COMMODITIES"
-   ]
   },
   {
    "uid": 8418,
@@ -11269,15 +10596,6 @@
    "alternateNames": []
   },
   {
-   "uid": 9583,
-   "name": "SALI JR., Jainal Antel",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 9584,
    "name": "SAHIRON, Radulan",
    "type": "individual",
@@ -11614,18 +10932,6 @@
    ],
    "alternateNames": [
     "EL HASSAN, Gaffar Mohamed"
-   ]
-  },
-  {
-   "uid": 9621,
-   "name": "SHANT, Adam Yacub",
-   "type": "individual",
-   "programs": [
-    "DARFUR"
-   ],
-   "alternateNames": [
-    "SHARIF, Adam Yacub",
-    "YACOUB, Adam"
    ]
   },
   {
@@ -12242,15 +11548,6 @@
    "alternateNames": []
   },
   {
-   "uid": 9999,
-   "name": "RENDON RAMIREZ, Jose Aldemar",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 10000,
    "name": "CANO CORREA, Jhon Eidelber",
    "type": "individual",
@@ -12631,18 +11928,6 @@
    ],
    "alternateNames": [
     "GLBC"
-   ]
-  },
-  {
-   "uid": 10119,
-   "name": "TAHA, Khalil Ibrahim Mohamed Achar Foudail",
-   "type": "individual",
-   "programs": [
-    "DARFUR"
-   ],
-   "alternateNames": [
-    "IBRAHIM, Khalil",
-    "MOHAMED, Khalil Ibrahim"
    ]
   },
   {
@@ -16662,23 +15947,12 @@
    "name": "AW-MOHAMED, Ahmed Abdi",
    "type": "individual",
    "programs": [
-    "SDGT"
+    "SDGT",
+    "SOMALIA"
    ],
    "alternateNames": [
     "AW MOHAMMED, Ahmed Abdi",
     "ABUZUBAIR, Muktar Abdulrahim"
-   ]
-  },
-  {
-   "uid": 11312,
-   "name": "ISSA, Issa Osman",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "BUR, Abdullah",
-    "ATTO, Abdullah"
    ]
   },
   {
@@ -18212,7 +17486,10 @@
     "RYUNGSENG TRADING CORPORATION",
     "RYUNG SENG TRADING CORPORATION",
     "RYUNGSONG TRADING CORPORATION",
-    "KOREA KURYONGGANG TRADING CORPORATION"
+    "KOREA KURYONGGANG TRADING CORPORATION",
+    "SECOND ACADEMY OF NATURAL SCIENCES FOREIGN AFFAIRS BUREAU",
+    "KOREA KUWOLSAN TRADING CORPORATION",
+    "KOREA RYENHAP 2 TRADING CORPORATION"
    ]
   },
   {
@@ -18909,6 +18186,7 @@
    "name": "AL-TURKI, Hassan Abdullah Hersi",
    "type": "individual",
    "programs": [
+    "SDGT",
     "SOMALIA"
    ],
    "alternateNames": [
@@ -18918,27 +18196,6 @@
     "XIRSI, Xasan Cabdilaahi",
     "XIRSI, Xasan Cabdulle",
     "TURKI, Sheikh Hassan"
-   ]
-  },
-  {
-   "uid": 11744,
-   "name": "AWEYS, Hassan Dahir",
-   "type": "individual",
-   "programs": [
-    "SOMALIA"
-   ],
-   "alternateNames": [
-    "ALI, Sheikh Hassan Dahir Aweys",
-    "AWES, Shaykh Hassan Dahir",
-    "AWEYES, Hassen Dahir",
-    "AWEYS, Ahmed Dahir",
-    "IBRAHIM, Mohammed Hassan",
-    "DAHIR, Aweys Hassan",
-    "AWEYS, Sheikh Hassan Dahir",
-    "AWEYS, Sheikh",
-    "AWES, Hassan Dahir",
-    "UWAYS, Hassan Tahir",
-    "OAIS, Hassan Tahir"
    ]
   },
   {
@@ -18961,20 +18218,6 @@
     "SONGALE, Fuad",
     "SHONGALE, Fouad",
     "SHONGOLE, Fuad Muhammad Khalaf"
-   ]
-  },
-  {
-   "uid": 11746,
-   "name": "AW-MOHAMED, Ahmed Abdi",
-   "type": "individual",
-   "programs": [
-    "SOMALIA"
-   ],
-   "alternateNames": [
-    "ABUZUBAIR, Muktar Abdulrahim",
-    "AW MOHAMMED, Ahmed Abdi",
-    "AW-MOHAMUD, Ahmed Abdi",
-    "ABU ZUBEYR, Muktar Abdirahman"
    ]
   },
   {
@@ -19284,20 +18527,6 @@
    ]
   },
   {
-   "uid": 11799,
-   "name": "MORENO GONZALEZ, Nazario",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "MORENO, Chayo",
-    "MORENO, Jose",
-    "MORENO MADRIGAL, Nazario",
-    "CASTREJON PENA, Victor Nazario"
-   ]
-  },
-  {
    "uid": 11800,
    "name": "LOYA PLANCARTE, Dionicio",
    "type": "individual",
@@ -19311,15 +18540,6 @@
   {
    "uid": 11801,
    "name": "GOMEZ MARTINEZ, Servando",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11802,
-   "name": "PLANCARTE SOLIS, Enrique",
    "type": "individual",
    "programs": [
     "SDNTK"
@@ -20006,15 +19226,6 @@
    "alternateNames": []
   },
   {
-   "uid": 11919,
-   "name": "FLORES BORREGO, Samuel",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 11920,
    "name": "PENA MENDOZA, Sergio",
    "type": "individual",
@@ -20213,15 +19424,6 @@
    ]
   },
   {
-   "uid": 11939,
-   "name": "HERNANDEZ BARRON, Raul",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 11940,
    "name": "PEREZ ROJAS, Daniel",
    "type": "individual",
@@ -20373,18 +19575,6 @@
    "alternateNames": []
   },
   {
-   "uid": 11958,
-   "name": "MELLADO CRUZ, Galdino",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "MELLADO CRUZ, Galindo",
-    "GALINDO MELLADO, Cruz"
-   ]
-  },
-  {
    "uid": 11959,
    "name": "ESTRADA GONZALEZ, Eduardo",
    "type": "individual",
@@ -20392,19 +19582,6 @@
     "SDNTK"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 11960,
-   "name": "GONZALEZ PIZANA JR., Rogelio",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "GONZALEZ GARZA, Rolando",
-    "PIZANA GONZALEZ, Rogelio",
-    "GONZALEZ PIZANA, Rogelio Kak, Jr."
-   ]
   },
   {
    "uid": 11961,
@@ -23480,22 +22657,6 @@
    ]
   },
   {
-   "uid": 12684,
-   "name": "ZLITNI, Abdulhafid",
-   "type": "individual",
-   "programs": [
-    "LIBYA2"
-   ],
-   "alternateNames": [
-    "AL-ZULAYTINI, Abd-Al-Hafid Mahmud",
-    "ZLITNI, Abdul Hafiz",
-    "ZLITNI, Abdelhafidh",
-    "ZLITNI, Abdul Hafid",
-    "ZLITNI, Abdulhafid Mahmoud",
-    "ZLEITNI, Abdel-Hafez"
-   ]
-  },
-  {
    "uid": 12685,
    "name": "GADDAFI INTERNATIONAL CHARITY AND DEVELOPMENT FOUNDATION",
    "type": "entity",
@@ -24131,21 +23292,6 @@
    "alternateNames": [
     "MUHAMMADI, Omid",
     "MUHAMMADI, 'Umid 'Abd al-Majid Muhammad 'Aziz"
-   ]
-  },
-  {
-   "uid": 12843,
-   "name": "ABD AL-RAHMAN, Atiyah",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL-LIBI, 'Atiyah 'Abd al-Rahman",
-    "AL-SHITAYWI, Jamal Ibrahim Muhammad",
-    "AL-SHTIWI, Jamal",
-    "AL-SHITIWI, Jamal",
-    "AL-SHATIWI, Jamal"
    ]
   },
   {
@@ -26102,15 +25248,6 @@
    "alternateNames": []
   },
   {
-   "uid": 13173,
-   "name": "COLORADO CESSA, Francisco Antonio",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 13346,
    "name": "CASANOVA ORDONEZ, Hermes Alirio",
    "type": "individual",
@@ -26959,15 +26096,6 @@
    "alternateNames": [
     "GASOLINERA EL CRUCERO LAS TORRES, S.A. DE C.V."
    ]
-  },
-  {
-   "uid": 15015,
-   "name": "ADT PETROSERVICIOS, S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 15016,
@@ -28272,15 +27400,6 @@
    "alternateNames": [
     "NIEBLA GONZALEZ, Adelmo"
    ]
-  },
-  {
-   "uid": 15255,
-   "name": "PAEZ SOTO, Ramon Ignacio",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 15256,
@@ -30050,17 +29169,6 @@
     "TCO"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 15662,
-   "name": "KIYOTA, Jiro",
-   "type": "individual",
-   "programs": [
-    "TCO"
-   ],
-   "alternateNames": [
-    "SIN, Byon-Gyu"
-   ]
   },
   {
    "uid": 15663,
@@ -32535,15 +31643,6 @@
    ]
   },
   {
-   "uid": 16161,
-   "name": "ARECHIGA GAMBOA, Jose Rodrigo",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 16167,
    "name": "YAYLA, Bulut",
    "type": "individual",
@@ -33467,24 +32566,6 @@
   {
    "uid": 16461,
    "name": "PALENCIA GONZALEZ, Cipriam Manuel",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16463,
-   "name": "PADIERNA PENA, Luis Orlando",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16464,
-   "name": "MESA PAEZ, Aristides Manuel",
    "type": "individual",
    "programs": [
     "SDNTK"
@@ -35959,38 +35040,11 @@
    "alternateNames": []
   },
   {
-   "uid": 16974,
-   "name": "GARCIA ARBOLEDA, Edward",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 16984,
    "name": "BIDOGNETTI, Francesco",
    "type": "individual",
    "programs": [
     "TCO"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16985,
-   "name": "LA TIENDA DE MINGO",
-   "type": "entity",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16990,
-   "name": "INVERSIONES C.P.C.L. Y CIA. S. EN C.S.",
-   "type": "entity",
-   "programs": [
-    "SDNTK"
    ],
    "alternateNames": []
   },
@@ -38795,15 +37849,6 @@
    "alternateNames": []
   },
   {
-   "uid": 17848,
-   "name": "VALENZUELA VERDUGO, Jorge Mario",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 17849,
    "name": "FERNANDEZ VALENCIA, Guadalupe",
    "type": "individual",
@@ -40684,20 +39729,6 @@
    ]
   },
   {
-   "uid": 18602,
-   "name": "NUR, Mohammed",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "NURA, Mohammed",
-    "NUR, Mammam",
-    "NUR, Mohammad",
-    "NURU, Mallam Ahmed"
-   ]
-  },
-  {
    "uid": 18603,
    "name": "HELAL, Mounir Ben Dhaou Ben Brahim Ben",
    "type": "individual",
@@ -42081,6 +41112,7 @@
    "name": "OTKRYTOE AKTSIONERNOE OBSHCHESTVO VNESHNEEKONOMICHESKOE OBEDINENIE TEKHNOPROMEKSPORT",
    "type": "entity",
    "programs": [
+    "UKRAINE-EO13662",
     "UKRAINE-EO13685"
    ],
    "alternateNames": [
@@ -45095,13 +44127,16 @@
    "name": "OAO SHIP REPAIR CENTER 'ZVEZDOCHKA'",
    "type": "entity",
    "programs": [
-    "UKRAINE-EO13685"
+    "UKRAINE-EO13685",
+    "RUSSIA-EO14024"
    ],
    "alternateNames": [
     "AO SHIP REPAIR CENTER 'ZVEZDOCHKA'",
     "JOINT STOCK COMPANY SHIP REPAIR CENTER 'ZVEZDOCHKA'",
     "SHIP REPAIR CENTER ZVEZDOCHKA",
-    "'ZVEZDOCHKA' SHIPYARD"
+    "'ZVEZDOCHKA' SHIPYARD",
+    "JOINT STOCK COMPANY SHIPREPAIRING CENTER ZVYOZDOCHKA",
+    "JSC CENTER SUDOREMONTA ZVEZDOCHKA"
    ]
   },
   {
@@ -49051,20 +48086,6 @@
    "alternateNames": [
     "NAIM, Bahrun",
     "TAMTOMO, Anggih"
-   ]
-  },
-  {
-   "uid": 21727,
-   "name": "JEDI, Muhammad Wanndy Bin Mohamed",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "JEDI, Muhamad Wanndy bin Muhamad",
-    "JEDI, Muhamad Wanndy Muhamad",
-    "JEDI, Muhamad Wanndy Mohamad",
-    "WANNDY, Muhamad"
    ]
   },
   {
@@ -53341,15 +52362,6 @@
    ]
   },
   {
-   "uid": 23308,
-   "name": "RIVAS REYES, Roberto Jose",
-   "type": "individual",
-   "programs": [
-    "GLOMAG"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 23323,
    "name": "KANILAI GROUP INTERNATIONAL",
    "type": "entity",
@@ -55030,10 +54042,11 @@
   },
   {
    "uid": 23627,
-   "name": "HANIYEH, Ismail",
+   "name": "HANIYAH, Ismail Abdul Salah",
    "type": "individual",
    "programs": [
-    "SDGT"
+    "SDGT",
+    "NS-PLC"
    ],
    "alternateNames": [
     "HANIYEH, Ismail Abdel Salam Ahmed",
@@ -56897,7 +55910,8 @@
    "name": "USTINOV, Vladimir Vasilyevich",
    "type": "individual",
    "programs": [
-    "UKRAINE-EO13661"
+    "UKRAINE-EO13661",
+    "RUSSIA-EO14024"
    ],
    "alternateNames": []
   },
@@ -59217,20 +58231,6 @@
    "alternateNames": [
     "UDIN, Mohd Rafi",
     "UDIN, Rafi"
-   ]
-  },
-  {
-   "uid": 24784,
-   "name": "FAIZ, Mohammed Karim Yusop",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "FAIZ, Mohd Karim Yusop",
-    "FAIZ, Mohammed Yusop Karin",
-    "FAIZ, Mohammad Yusuf Karim",
-    "SAIFUDDIN, Muhmmad"
    ]
   },
   {
@@ -61655,17 +60655,6 @@
     "SDGT"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 25400,
-   "name": "MUZZAMIL, Mohammad Daoud",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "DAWOUD, Muhammad"
-   ]
   },
   {
    "uid": 25401,
@@ -100594,21 +99583,6 @@
    ]
   },
   {
-   "uid": 36065,
-   "name": "JOINT STOCK COMPANY SHIPREPAIRING CENTER ZVYOZDOCHKA",
-   "type": "entity",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": [
-    "SHIPREPAIRING CENTER ZVYOZDOCHKA",
-    "JOINT-STOCK COMPANY TSS ZVEZDOCHKA",
-    "SC ZVYOZDOCHKA",
-    "JSC CENTER SUDOREMONTA ZVEZDOCHKA",
-    "JOINT-STOCK COMPANY SHIP REPAIR CENTER ZVEZDOCHKA"
-   ]
-  },
-  {
    "uid": 36067,
    "name": "PUBLIC JOINT STOCK COMPANY PROLETARSKY ZAVOD",
    "type": "entity",
@@ -101520,15 +100494,6 @@
    ]
   },
   {
-   "uid": 36397,
-   "name": "USTINOV, Vladimir Vasilyevich",
-   "type": "individual",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 36399,
    "name": "LADY LEILA",
    "type": "vessel",
@@ -101611,6 +100576,7 @@
    "name": "SOVREMENNYE TEKHNOLOGII LIMITED LIABILITY COMPANY",
    "type": "entity",
    "programs": [
+    "UKRAINE-EO13662",
     "RUSSIA-EO14024"
    ],
    "alternateNames": [
@@ -101670,11 +100636,13 @@
    "name": "LIMITED LIABILITY COMPANY KORUS CONSULTING CIS",
    "type": "entity",
    "programs": [
+    "UKRAINE-EO13662",
     "RUSSIA-EO14024"
    ],
    "alternateNames": [
     "KORUS CONSULTING CIS LLC",
-    "KORUS CONSULTING SNG"
+    "KORUS CONSULTING SNG",
+    "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU KORUS KONSALTING SNG"
    ]
   },
   {
@@ -106911,18 +105879,6 @@
    "alternateNames": [
     "JOINT STOCK COMPANY RESEARCH AND PRODUCTION ASSOCIATION ELEKTROMEKHANIKI",
     "NPO OF ELECTROMECHANICS"
-   ]
-  },
-  {
-   "uid": 37526,
-   "name": "JOINT STOCK COMPANY ARZAMASSKY PRIBOROSTROITELNY ZAVOD IMENI PLANDINA",
-   "type": "entity",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": [
-    "JSC ARZAMASSKY PRIBOROSTROITELNY ZAVOD NAMED AFTER PLANDIN",
-    "JOINT STOCK COMPANY ARZAMASSKY PRIBOROSTROITELNY FACTORY NAMED AFTER P. I. PLANDINA"
    ]
   },
   {
@@ -153453,15 +152409,6 @@
    ]
   },
   {
-   "uid": 48745,
-   "name": "CSOFT DEVELOPMENT",
-   "type": "entity",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 48746,
    "name": "JSC CONSULTING GROUP POSTPROCESSOR",
    "type": "entity",
@@ -158496,15 +157443,6 @@
   {
    "uid": 49462,
    "name": "KOC GEMICILIK VE TASIMACILIK DIS TICARET LIMITED SIRKETI",
-   "type": "entity",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 49463,
-   "name": "JOINT STOCK COMPANY POLEMA",
    "type": "entity",
    "programs": [
     "RUSSIA-EO14024"
@@ -170417,15 +169355,6 @@
    ]
   },
   {
-   "uid": 51149,
-   "name": "SPECIAL SYSTEMS PHOTONICS LLC",
-   "type": "entity",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 51150,
    "name": "OPEN JOINT STOCK COMPANY 136 CENTRALNAY BAZA PROIZVODSTVA I REMONTA VOORYGENIY I CREDSTV RADIACIONNOI HIMICHESKOI I BIOLOGICHESKOI ZACHITU",
    "type": "entity",
@@ -175191,6 +174120,7 @@
    "type": "vessel",
    "programs": [
     "UKRAINE-EO13662",
+    "IRAN-EO13846",
     "RUSSIA-EO14024"
    ],
    "alternateNames": []
@@ -179684,23 +178614,6 @@
    "alternateNames": []
   },
   {
-   "uid": 52293,
-   "name": "SECOND ACADEMY OF NATURAL SCIENCES FOREIGN AFFAIRS BUREAU",
-   "type": "entity",
-   "programs": [
-    "NPWMD"
-   ],
-   "alternateNames": [
-    "KOREA KURYONGGANG TRADING CORPORATION",
-    "RYUNGSONG TRADING CORPORATION",
-    "RYUNGSENG TRADING CORPORATION",
-    "RYUNG SENG TRADING CORPORATION",
-    "KOREA TANGUN TRADING CORPORATION",
-    "KOREA KUWOLSAN TRADING CORPORATION",
-    "KOREA RYENHAP 2 TRADING CORPORATION"
-   ]
-  },
-  {
    "uid": 52294,
    "name": "SAFWAN AL-DUBAI COMPANY OF SHIPPING AND TRADE",
    "type": "entity",
@@ -179907,15 +178820,6 @@
   {
    "uid": 52326,
    "name": "PROGRESS V",
-   "type": "vessel",
-   "programs": [
-    "IRAN-EO13846"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 52327,
-   "name": "TASCA",
    "type": "vessel",
    "programs": [
     "IRAN-EO13846"

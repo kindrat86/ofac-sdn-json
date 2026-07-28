@@ -1,31 +1,31 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19254 designated entries and 20350 alternate identities (39604 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-07-23 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19157 designated entries and 20159 alternate identities (39316 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-07-24 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-07-23",
- "retrieved": "2026-07-27",
+ "published": "2026-07-24",
+ "retrieved": "2026-07-28",
  "counts": {
-  "entries": 19254,
-  "alternateNames": 20350,
-  "totalNames": 39604
+  "entries": 19157,
+  "alternateNames": 20159,
+  "totalNames": 39316
  },
  "typeCounts": {
-  "entity": 9873,
-  "individual": 7520,
-  "vessel": 1517,
+  "entity": 9825,
+  "individual": 7472,
+  "vessel": 1516,
   "aircraft": 344
  },
  "topPrograms": [
   [
    "RUSSIA-EO14024",
-   6353
+   6349
   ],
   [
    "SDGT",
-   3249
+   3240
   ],
   [
    "IFSR",
@@ -33,11 +33,11 @@
   ],
   [
    "SDNTK",
-   1400
+   1372
   ],
   [
    "NPWMD",
-   1174
+   1173
   ],
   [
    "IRAN-EO13902",
@@ -45,7 +45,7 @@
   ],
   [
    "GLOMAG",
-   740
+   739
   ],
   [
    "ILLICIT-DRUGS-EO14059",
@@ -57,7 +57,7 @@
   ],
   [
    "UKRAINE-EO13662",
-   533
+   536
   ],
   [
    "IRAN-EO13846",
@@ -65,7 +65,7 @@
   ],
   [
    "TCO",
-   416
+   415
   ],
   [
    "IRGC",
@@ -111,7 +111,7 @@
   }
  ],
  "bytes": {
-  "json": 3737211,
-  "csv": 1665337
+  "json": 3717685,
+  "csv": 1656540
  }
 }
