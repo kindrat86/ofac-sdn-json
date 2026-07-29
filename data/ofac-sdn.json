@@ -6,7 +6,7 @@
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
  "published": "2026-07-24",
- "retrieved": "2026-07-28",
+ "retrieved": "2026-07-29",
  "counts": {
   "entries": 19157,
   "alternateNames": 20159,
