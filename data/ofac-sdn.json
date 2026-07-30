@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19157 designated entries and 20159 alternate identities (39316 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-07-24 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19175 designated entries and 20163 alternate identities (39338 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-07-28 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-07-24",
- "retrieved": "2026-07-29",
+ "published": "2026-07-28",
+ "retrieved": "2026-07-30",
  "counts": {
-  "entries": 19157,
-  "alternateNames": 20159,
-  "totalNames": 39316
+  "entries": 19175,
+  "alternateNames": 20163,
+  "totalNames": 39338
  },
  "typeCounts": {
-  "entity": 9825,
+  "entity": 9835,
   "individual": 7472,
-  "vessel": 1516,
+  "vessel": 1524,
   "aircraft": 344
  },
  "topPrograms": [
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   884
+   902
   ],
   [
    "GLOMAG",
@@ -204878,6 +204878,35 @@
    ]
   },
   {
+   "uid": 58189,
+   "name": "QI HANG SHIP MANAGEMENT LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58190,
+   "name": "WELL SAIL",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58194,
+   "name": "CONFIDENT APEX LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "CONFIDENT APEX LTD"
+   ]
+  },
+  {
    "uid": 58195,
    "name": "EL-ABIARY, Mahmoud",
    "type": "individual",
@@ -205057,6 +205086,147 @@
    "type": "individual",
    "programs": [
     "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58214,
+   "name": "MARINOVA FREIGHT LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58215,
+   "name": "VAST MIGHTY LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58216,
+   "name": "OCEAN TRANQUILITY LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58217,
+   "name": "BRANCH SAYING INTERNATIONAL TRADING CO LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58218,
+   "name": "NATSUMI",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58219,
+   "name": "NIRETA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58220,
+   "name": "CRYSTAL",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58221,
+   "name": "YEHOPE",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58227,
+   "name": "LILY",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58231,
+   "name": "BILLION NEXUS INT'L CO., LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "BILLION NEXUS INT'L CO LTD"
+   ]
+  },
+  {
+   "uid": 58232,
+   "name": "AL SALMI",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58233,
+   "name": "PERSIAN GULF MARINE INSURANCE COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58234,
+   "name": "HORMUZSAFE MARINE SERVICES AUTHORITY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "HORMUZ SAFE"
+   ]
+  },
+  {
+   "uid": 58235,
+   "name": "NEVADA SPIRIT COMPANY LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "NEVADA SPIRIT CO LTD"
+   ]
+  },
+  {
+   "uid": 58236,
+   "name": "BREEZE V",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
    ],
    "alternateNames": []
   }
