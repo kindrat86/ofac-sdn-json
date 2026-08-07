@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19178 designated entries and 20167 alternate identities (39345 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-04 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19189 designated entries and 20177 alternate identities (39366 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-06 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-04",
- "retrieved": "2026-08-06",
+ "published": "2026-08-06",
+ "retrieved": "2026-08-07",
  "counts": {
-  "entries": 19178,
-  "alternateNames": 20167,
-  "totalNames": 39345
+  "entries": 19189,
+  "alternateNames": 20177,
+  "totalNames": 39366
  },
  "typeCounts": {
-  "entity": 9839,
-  "individual": 7473,
+  "entity": 9844,
+  "individual": 7479,
   "vessel": 1524,
   "aircraft": 342
  },
@@ -84650,10 +84650,11 @@
   },
   {
    "uid": 32628,
-   "name": "LOPEZ MIERA, Alvaro",
+   "name": "LOPEZ MIERA, Alvaro Victoriano",
    "type": "individual",
    "programs": [
-    "GLOMAG"
+    "GLOMAG",
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   },
@@ -85708,7 +85709,8 @@
    "name": "LEGRA SOTOLONGO, Roberto",
    "type": "individual",
    "programs": [
-    "GLOMAG"
+    "GLOMAG",
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   },
@@ -205266,6 +205268,119 @@
    "type": "vessel",
    "programs": [
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58290,
+   "name": "UNION DE INDUSTRIA MILITAR",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "LA UNION DE INDUSTRIAS MILITARES",
+    "MILITARY INDUSTRIES UNION",
+    "UNION OF WAR INDUSTRY"
+   ]
+  },
+  {
+   "uid": 58291,
+   "name": "VICIANA MOUSSET, Roberto Jesus",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58292,
+   "name": "EMPRESA CUBANA IMPORTADA Y EXPORTADA DE PRODUCTOS TECNICOS",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "IMPORT AND EXPORT CUBAN COMPANY OF TECHNICAL PRODUCTS",
+    "TECNOIMPORT",
+    "STATE ENTERPRISE TECHNOIMPORT",
+    "TECHNOIMPORT"
+   ]
+  },
+  {
+   "uid": 58293,
+   "name": "SANCHEZ ALLEYNE, Heriberto",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58294,
+   "name": "SOCIEDAD MERCANTIL DUNA SA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58295,
+   "name": "EMPRESA CUBANA EXPORTADORA E IMPORTADORA DE SERVICIOS, ARTICULOS Y PRODUCTOS TECNICOS ESPECIALIZADOS SA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "TECNOTEX SA"
+   ]
+  },
+  {
+   "uid": 58296,
+   "name": "EMPRESA MILITAR INDUSTRIAL YURI GAGARIN",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "YURI GAGARIN MILITARY INDUSTRIAL ENTERPRISE",
+    "EMI YURI GAGARIN"
+   ]
+  },
+  {
+   "uid": 58297,
+   "name": "REMON RODRIGUEZ, Jose Antonio",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58298,
+   "name": "BIOSCA GALLEGO, Oscar Enrique",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58299,
+   "name": "MILIAN GOMEZ, Monica",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58300,
+   "name": "PEREZ CORTES, Waldo",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   }
