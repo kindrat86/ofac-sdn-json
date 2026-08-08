@@ -1,19 +1,19 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19189 designated entries and 20177 alternate identities (39366 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-06 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19199 designated entries and 20183 alternate identities (39382 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-07 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-06",
- "retrieved": "2026-08-07",
+ "published": "2026-08-07",
+ "retrieved": "2026-08-08",
  "counts": {
-  "entries": 19189,
-  "alternateNames": 20177,
-  "totalNames": 39366
+  "entries": 19199,
+  "alternateNames": 20183,
+  "totalNames": 39382
  },
  "typeCounts": {
-  "entity": 9844,
+  "entity": 9854,
   "individual": 7479,
   "vessel": 1524,
   "aircraft": 342
@@ -25,7 +25,7 @@
   ],
   [
    "SDGT",
-   3243
+   3249
   ],
   [
    "IFSR",
@@ -33,7 +33,7 @@
   ],
   [
    "SDNTK",
-   1372
+   1365
   ],
   [
    "NPWMD",
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   902
+   914
   ],
   [
    "GLOMAG",
@@ -69,7 +69,7 @@
   ],
   [
    "IRGC",
-   287
+   288
   ],
   [
    "CYBER2",
@@ -18303,15 +18303,6 @@
    "alternateNames": []
   },
   {
-   "uid": 11753,
-   "name": "SATIZABAL RENGIFO, Mario German",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 11755,
    "name": "SAAVEDRA ARCE, Rodrigo Eugenio",
    "type": "individual",
@@ -18613,15 +18604,6 @@
   {
    "uid": 11811,
    "name": "AGUILAR DUARTE, Jose Lenoir",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11812,
-   "name": "AYALA BARRERA, Rubi Yiceth",
    "type": "individual",
    "programs": [
     "SDNTK"
@@ -33087,33 +33069,6 @@
    "alternateNames": []
   },
   {
-   "uid": 16580,
-   "name": "ZAZUETA GODOY, Heriberto",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16581,
-   "name": "ZAZUETA GOMEZ, Leopoldo",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16582,
-   "name": "ROMERO ZEVADA, Demetrio",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 16601,
    "name": "ZAKHARCHENKO, Vitaliy Yuriyovych",
    "type": "individual",
@@ -33150,24 +33105,6 @@
    "type": "individual",
    "programs": [
     "TCO"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16607,
-   "name": "PRODUCCION PESQUERA DONA MARIELA, S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 16608,
-   "name": "TAIPEN, S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNTK"
    ],
    "alternateNames": []
   },
@@ -33268,15 +33205,6 @@
     "AKSYONOV, Sergiy",
     "AKSENOV, Sergei"
    ]
-  },
-  {
-   "uid": 16643,
-   "name": "COMERCIALIZADORA Y FRIGORIFICOS DE LA PERLA DEL PACIFICO, S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 16646,
@@ -205268,6 +205196,179 @@
    "type": "vessel",
    "programs": [
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58239,
+   "name": "ABAN TETHER EXCHANGE",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ABANTETHER",
+    "ABAN TABADEL ARSABARAN"
+   ]
+  },
+  {
+   "uid": 58258,
+   "name": "CRYPTO HOME DMCC",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58259,
+   "name": "NFT HOME DMCC",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58266,
+   "name": "SHARIFI, Shima",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58267,
+   "name": "GHASEMPOUR, Saeed",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "GHASEMPUR, Sa'id"
+   ]
+  },
+  {
+   "uid": 58268,
+   "name": "ALPS INTERNATIONAL L.L.C-FZ",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58269,
+   "name": "MOHAMMAD, Peivand",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "MOHAMMAD, Peyvand"
+   ]
+  },
+  {
+   "uid": 58270,
+   "name": "OVIEDO OVERSEAS COMPANY LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58271,
+   "name": "CAILAFANG PTE. LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58272,
+   "name": "TITAN EXCHANGE",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "TITAN LAND PETROCHEMICALS TRADING L.L.C",
+    "TITAN ENERGY PETROLEUM PRODUCTS TRADING CO. L.L.C"
+   ]
+  },
+  {
+   "uid": 58274,
+   "name": "AYDENIZ GENERAL TRADING L.L.C",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58275,
+   "name": "BLUE DASH GENERAL TRADING COMPANY LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58276,
+   "name": "GLEAMING HK TRADING LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58277,
+   "name": "HENDI, Amir",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58284,
+   "name": "KAYVANPOUR, Siavash",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "IRGC"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58285,
+   "name": "SHELBIT GENERAL TRADING LLC",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58287,
+   "name": "SHPS SHELBIT",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58288,
+   "name": "SHELBIT TECHNOLOGIES LTD SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA W LIKWIDACJI",
+   "type": "entity",
+   "programs": [
+    "SDGT"
    ],
    "alternateNames": []
   },
