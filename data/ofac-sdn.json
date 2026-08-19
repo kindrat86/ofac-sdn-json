@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19199 designated entries and 20183 alternate identities (39382 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-07 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19202 designated entries and 20183 alternate identities (39385 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-18 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-07",
- "retrieved": "2026-08-18",
+ "published": "2026-08-18",
+ "retrieved": "2026-08-19",
  "counts": {
-  "entries": 19199,
+  "entries": 19202,
   "alternateNames": 20183,
-  "totalNames": 39382
+  "totalNames": 39385
  },
  "typeCounts": {
-  "entity": 9854,
-  "individual": 7479,
+  "entity": 9855,
+  "individual": 7481,
   "vessel": 1524,
   "aircraft": 342
  },
@@ -205336,6 +205336,15 @@
    "alternateNames": []
   },
   {
+   "uid": 58278,
+   "name": "BLUWAVES PROPERTIES LIMITED",
+   "type": "entity",
+   "programs": [
+    "VENEZUELA-EO13850"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58284,
    "name": "KAYVANPOUR, Siavash",
    "type": "individual",
@@ -205482,6 +205491,24 @@
    "type": "individual",
    "programs": [
     "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58410,
+   "name": "AKANE, Tomoko",
+   "type": "individual",
+   "programs": [
+    "ICC-EO14203"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58411,
+   "name": "SEYE, Abdoulaye",
+   "type": "individual",
+   "programs": [
+    "ICC-EO14203"
    ],
    "alternateNames": []
   }
