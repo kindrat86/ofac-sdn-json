@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19202 designated entries and 20183 alternate identities (39385 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-18 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19249 designated entries and 20194 alternate identities (39443 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-20 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-18",
- "retrieved": "2026-08-20",
+ "published": "2026-08-20",
+ "retrieved": "2026-08-21",
  "counts": {
-  "entries": 19202,
-  "alternateNames": 20183,
-  "totalNames": 39385
+  "entries": 19249,
+  "alternateNames": 20194,
+  "totalNames": 39443
  },
  "typeCounts": {
-  "entity": 9855,
-  "individual": 7481,
-  "vessel": 1524,
+  "entity": 9871,
+  "individual": 7502,
+  "vessel": 1534,
   "aircraft": 342
  },
  "topPrograms": [
@@ -25,11 +25,11 @@
   ],
   [
    "SDGT",
-   3249
+   3262
   ],
   [
    "IFSR",
-   1545
+   1549
   ],
   [
    "SDNTK",
@@ -49,7 +49,7 @@
   ],
   [
    "ILLICIT-DRUGS-EO14059",
-   704
+   729
   ],
   [
    "IRAN",
@@ -69,7 +69,7 @@
   ],
   [
    "IRGC",
-   288
+   289
   ],
   [
    "CYBER2",
@@ -111,7 +111,7 @@
   }
  ],
  "bytes": {
-  "json": 3725633,
-  "csv": 1659786
+  "json": 3733425,
+  "csv": 1662820
  }
 }

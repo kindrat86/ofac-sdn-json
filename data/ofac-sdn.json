@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19202 designated entries and 20183 alternate identities (39385 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-18 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19249 designated entries and 20194 alternate identities (39443 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-20 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-18",
- "retrieved": "2026-08-20",
+ "published": "2026-08-20",
+ "retrieved": "2026-08-21",
  "counts": {
-  "entries": 19202,
-  "alternateNames": 20183,
-  "totalNames": 39385
+  "entries": 19249,
+  "alternateNames": 20194,
+  "totalNames": 39443
  },
  "typeCounts": {
-  "entity": 9855,
-  "individual": 7481,
-  "vessel": 1524,
+  "entity": 9871,
+  "individual": 7502,
+  "vessel": 1534,
   "aircraft": 342
  },
  "topPrograms": [
@@ -25,11 +25,11 @@
   ],
   [
    "SDGT",
-   3249
+   3262
   ],
   [
    "IFSR",
-   1545
+   1549
   ],
   [
    "SDNTK",
@@ -49,7 +49,7 @@
   ],
   [
    "ILLICIT-DRUGS-EO14059",
-   704
+   729
   ],
   [
    "IRAN",
@@ -69,7 +69,7 @@
   ],
   [
    "IRGC",
-   288
+   289
   ],
   [
    "CYBER2",
@@ -1049,7 +1049,9 @@
    "type": "entity",
    "programs": [
     "FTO",
-    "SDGT"
+    "SDGT",
+    "IRGC",
+    "IFSR"
    ],
    "alternateNames": [
     "PARTY OF GOD",
@@ -203224,6 +203226,15 @@
    ]
   },
   {
+   "uid": 57958,
+   "name": "ALARCON HOLGUIN, Jimmy Leonidas",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 57960,
    "name": "SMART GLOBAL LIMITED",
    "type": "entity",
@@ -205212,6 +205223,16 @@
    ]
   },
   {
+   "uid": 58253,
+   "name": "DEDE, Onder",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58258,
    "name": "CRYPTO HOME DMCC",
    "type": "entity",
@@ -205226,6 +205247,16 @@
    "type": "entity",
    "programs": [
     "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58265,
+   "name": "YILMAZ, Yunus Alper",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "IFSR"
    ],
    "alternateNames": []
   },
@@ -205364,6 +205395,15 @@
    "alternateNames": []
   },
   {
+   "uid": 58286,
+   "name": "AKYUZ, Vasfi",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58287,
    "name": "SHPS SHELBIT",
    "type": "entity",
@@ -205495,6 +205535,297 @@
    "alternateNames": []
   },
   {
+   "uid": 58301,
+   "name": "KARASALIH, Feyyad",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58303,
+   "name": "MOUSAFAR, Masoud",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58305,
+   "name": "KACMAZ, Halil Ibrahim",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "KACHMAZ, Halil"
+   ]
+  },
+  {
+   "uid": 58306,
+   "name": "AKYUZ, Mehmet",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58307,
+   "name": "ACUR, Mehmet",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "AJUR, Mehmet"
+   ]
+  },
+  {
+   "uid": 58308,
+   "name": "SAVCI, Gulay Kaya",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "SAVJI, Gulay Kaya"
+   ]
+  },
+  {
+   "uid": 58309,
+   "name": "AYAZ, Emrah",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58345,
+   "name": "MERO MERO, Alfonso",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58353,
+   "name": "TODOS VUELVEN",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58354,
+   "name": "ARCA DE NOE III",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58355,
+   "name": "ARCA DE NOE III JR",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58356,
+   "name": "ARCA DE NOE IV",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58357,
+   "name": "ARCA DE NOE V",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58358,
+   "name": "REY DE ARCA",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58363,
+   "name": "SIEMPRE MI ARCA",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58364,
+   "name": "MERO ARCENTALES, Roberth Alfonso",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58366,
+   "name": "MERO FRANCO, Julio Javier",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58367,
+   "name": "CONQUISTA",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58369,
+   "name": "MERO ARCENTALES, Edwar Alexis",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58370,
+   "name": "SOLO ES MEJOR",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58371,
+   "name": "COSTA MARLIN",
+   "type": "vessel",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58372,
+   "name": "MARTINEZ MENDOZA, Milton Edixson",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58373,
+   "name": "VERA LAZ, Jhonny Francisco",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58375,
+   "name": "MERO BERMELLO, Byron Aladino",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58377,
+   "name": "ARCASDENOE, S.A.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "EXPORTADORA Y EMPACADORA ARCASDENOE, S.A."
+   ]
+  },
+  {
+   "uid": 58378,
+   "name": "ALHO FISH, S.A.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58379,
+   "name": "GLOBALDISTRIAL, S.A.S.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58380,
+   "name": "JAH-HMH, S.A.S.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58381,
+   "name": "NEGOCIOS JIMAR, S.A.S.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58382,
+   "name": "PROYECTOS NEYZOA, S.A.S.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58383,
+   "name": "SOISAMAR, S.A.S.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58410,
    "name": "AKANE, Tomoko",
    "type": "individual",
@@ -205509,6 +205840,128 @@
    "type": "individual",
    "programs": [
     "ICC-EO14203"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58443,
+   "name": "GRUPO EMPRESARIAL GEOMINERO SALINERO",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "GEOMINSAL"
+   ]
+  },
+  {
+   "uid": 58444,
+   "name": "MARTINEZ FREIRE, Leima",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58445,
+   "name": "MINISTRY OF CONSTRUCTION OF CUBA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58446,
+   "name": "RABAZA FERNANDEZ, Noemi Ramona",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58447,
+   "name": "EMPRESA DE NIQUEL COMANDANTE ERNESTO CHE GUEVARA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "EMPRESA UAC VILLA CLARA"
+   ]
+  },
+  {
+   "uid": 58448,
+   "name": "EMPRESA IMPORTADORA EXPORTADORA Y COMERCIALIZADORA DE METALES",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "METALCUBA"
+   ]
+  },
+  {
+   "uid": 58449,
+   "name": "EMPRESA COMERCIALIZADORA DE ARTICULOS EN GENERAL",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "CONSUMIMPORT"
+   ]
+  },
+  {
+   "uid": 58450,
+   "name": "ACINOX COMERCIAL",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "EMPRESA ACINOX COMERCIAL S.A."
+   ]
+  },
+  {
+   "uid": 58451,
+   "name": "EMPRESA CENTRAL DE ABASTECIMIENTO Y VENTAS DE EQUIPOS DE TRANSPORTE PESADO Y SUS PIEZAS",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58452,
+   "name": "CORATUR S.A.",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "CORPORACION DE ABASTECIMIENTO AL TURISMO S.A."
+   ]
+  },
+  {
+   "uid": 58453,
+   "name": "AGENCIA DE CONTRATACION A REPRESENTACIONES COMERCIALES S.A.",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "ACOREC S.A."
+   ]
+  },
+  {
+   "uid": 58454,
+   "name": "GONZALEZ LLORT, Fernando",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   }
