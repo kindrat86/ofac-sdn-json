@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19249 designated entries and 20194 alternate identities (39443 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-20 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19314 designated entries and 20144 alternate identities (39458 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-21 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-20",
- "retrieved": "2026-08-24",
+ "published": "2026-08-21",
+ "retrieved": "2026-08-25",
  "counts": {
-  "entries": 19249,
-  "alternateNames": 20194,
-  "totalNames": 39443
+  "entries": 19314,
+  "alternateNames": 20144,
+  "totalNames": 39458
  },
  "typeCounts": {
-  "entity": 9871,
-  "individual": 7502,
-  "vessel": 1534,
+  "entity": 9918,
+  "individual": 7514,
+  "vessel": 1540,
   "aircraft": 342
  },
  "topPrograms": [
@@ -25,11 +25,11 @@
   ],
   [
    "SDGT",
-   3262
+   3253
   ],
   [
    "IFSR",
-   1549
+   1573
   ],
   [
    "SDNTK",
@@ -37,11 +37,11 @@
   ],
   [
    "NPWMD",
-   1173
+   1195
   ],
   [
    "IRAN-EO13902",
-   914
+   940
   ],
   [
    "GLOMAG",
@@ -61,7 +61,7 @@
   ],
   [
    "IRAN-EO13846",
-   470
+   488
   ],
   [
    "TCO",
@@ -20075,7 +20075,8 @@
    "programs": [
     "NPWMD",
     "IFSR",
-    "IRAN-HR"
+    "IRAN-HR",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": [
     "CHERAGHI, Ahmad Shah"
@@ -34818,41 +34819,6 @@
    ]
   },
   {
-   "uid": 16937,
-   "name": "AL-NUSRAH FRONT",
-   "type": "entity",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "JABHAT AL-NUSRAH",
-    "JABHET AL-NUSRAH",
-    "AL NUSRAH FRONT FOR THE PEOPLE OF LEVANT",
-    "AL-NUSRAH FRONT IN LEBANON",
-    "JABHAT AL-NUSRA LI-AHL AL-SHAM MIN MUJAHEDI AL-SHAM FI SAHAT AL-JIHAD",
-    "JABHAT FATH AL SHAM",
-    "JABHAT FATH AL-SHAM",
-    "JABHAT FATAH AL-SHAM",
-    "JABHAT FATEH AL-SHAM",
-    "FATAH AL-SHAM FRONT",
-    "FATEH AL-SHAM FRONT",
-    "CONQUEST OF THE LEVANT FRONT",
-    "THE FRONT FOR THE LIBERATION OF AL SHAM",
-    "FRONT FOR THE CONQUEST OF SYRIA/THE LEVANT",
-    "FRONT FOR THE LIBERATION OF THE LEVANT",
-    "FRONT FOR THE CONQUEST OF SYRIA",
-    "HAY'AT TAHRIR AL-SHAM",
-    "HAY'ET TAHRIR AL-SHAM",
-    "HAYAT TAHRIR AL-SHAM",
-    "ASSEMBLY FOR THE LIBERATION OF SYRIA",
-    "LIBERATION OF AL-SHAM COMMISSION",
-    "LIBERATION OF THE LEVANT ORGANISATION",
-    "TAHRIR AL-SHAM",
-    "TAHRIR AL-SHAM HAY'AT",
-    "ASSEMBLY FOR LIBERATION OF THE LEVANT"
-   ]
-  },
-  {
    "uid": 16938,
    "name": "SAVELYEV, Oleg Genrikhovich",
    "type": "individual",
@@ -36033,34 +35999,6 @@
    ]
   },
   {
-   "uid": 17174,
-   "name": "AL-AJMI, Shafi Sultan Mohammed",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL-AJMI, Doctor Shafi",
-    "AL-AJMI, Sheikh Shafi"
-   ]
-  },
-  {
-   "uid": 17175,
-   "name": "AL-'AJMI, Hajjaj Fahd Hajjaj Muhammad Shabib",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL-AJMI, Hijaj Fahid Hijaj Muhammad Sabib",
-    "AL-ACMI, Hicac Fehid Hicac Muhammed Sebib",
-    "AL-AJMI, Hajjaj Bin-Fahad",
-    "AL-AJAMI, Sheikh Hajaj",
-    "AL-AJAMI, Hajaj",
-    "AJAMI, Ajaj"
-   ]
-  },
-  {
    "uid": 17176,
    "name": "NEKLYUDOV, Dmitry Sergeyevich",
    "type": "individual",
@@ -36138,21 +36076,6 @@
    "alternateNames": [
     "AL-'ALI, Hamid Hamad",
     "AL-'ALI, Hamad Hamid"
-   ]
-  },
-  {
-   "uid": 17208,
-   "name": "AL-SHARIKH, Abdul Mohsen Abdullah Ibrahim",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL CHAREKH, Abdul Mohsen Abdallah Ibrahim",
-    "ALSHAREKH, Abdul Mohsen Abdullah Ibrahim",
-    "AL-SHARIKH, Abd-al-Muhsin Abdallah",
-    "AL-NAJDI, Abd-al-Latif",
-    "AL-NASR, Sanafi"
    ]
   },
   {
@@ -41961,14 +41884,16 @@
   },
   {
    "uid": 19230,
-   "name": "FARAHI, Sayyad Medhi",
+   "name": "FARAHI, Seyyed Mahdi",
    "type": "individual",
    "programs": [
     "NPWMD",
-    "IFSR"
+    "IFSR",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": [
-    "FARAJZADEH, Seyyed Hadi"
+    "FARAJZADEH, Seyyed Hadi",
+    "FARAHI, Seyyed Mehdi"
    ]
   },
   {
@@ -43204,31 +43129,6 @@
    "alternateNames": []
   },
   {
-   "uid": 19809,
-   "name": "AL-MUTAYRI, Abd al-Muhsin Zabin Mutib Naif",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL-MUTAYRI, 'Abd al-Mushin Zabin Mutib Naif",
-    "AL-MUTAYRI, 'Abd al-Muhsin Zaban",
-    "AL-MUTAYRI, Dr. 'Abd al-Muhsin Zabn Mut'ib",
-    "AL-MUTAIRI, 'Abd al-Muhsin",
-    "AL-MUTAYYRI, 'Abd al-Muhsin",
-    "AL-MUTAYRI, 'Abd al-Mushin Zabn",
-    "AL-MUTAIRI, Abdulmohsen Zeben Mutaab",
-    "AL-MUTAYRI, 'Abd al-Muhsin Zubin",
-    "AL-MUTAYRI, 'Abd al-Muhsin Zibin Mut'ib Nayif",
-    "AL-MUTAYRI, 'Abd al-Muhsin Zibn Muta'ab",
-    "AL-MUTAYRI, 'Abd al-Muhsin Zabin Naif",
-    "AL-MUTAYRI, 'Abd al-Muhsin Zabin Mut'ab",
-    "AL-MUTAYYIRI, 'Abd al-Muhsin Zubyn",
-    "AL-MUTAYYIRI, 'Abd al-Muhsin Zabn",
-    "AL-MUTAYYIRI, 'Abd al-Muhsin Zabin Mutab Nayif"
-   ]
-  },
-  {
    "uid": 19811,
    "name": "AL-'ANIZI, 'Abdallah Hadi 'Abd al-Rahman Fayhan Sharban",
    "type": "individual",
@@ -43277,19 +43177,6 @@
    ],
    "alternateNames": [
     "AL-ZAYDI, Ghalib 'Abdallah 'Ali"
-   ]
-  },
-  {
-   "uid": 19869,
-   "name": "MAHAMED, Mostafa",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "ABDEL HAMID, Mostafa Mohamed",
-    "FARAG, Mostafa Mohamed",
-    "FARAG, Mostafa"
    ]
   },
   {
@@ -45511,45 +45398,6 @@
    "alternateNames": []
   },
   {
-   "uid": 20880,
-   "name": "AL-MUHAYSINI, 'Abdallah Muhammad Bin-Sulayman",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "ALMUHAYSINI, Abdullah"
-   ]
-  },
-  {
-   "uid": 20881,
-   "name": "AL-'ALLAK, Ashraf Ahmad Fari'",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL-ALLAL, Ashraf Ahmad Fari",
-    "FARI', Ashraf Ahmad",
-    "AL-URDUNI, Abu Raghad",
-    "BASHQ, Abu Raghad"
-   ]
-  },
-  {
-   "uid": 20882,
-   "name": "JASHARI, Abdul",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "JASHARI, Abdulj",
-    "JASHARI, Abdyl",
-    "AL-ALBANI, Abu Qatada",
-    "AL-ALBANI, Abu-Qatadah"
-   ]
-  },
-  {
    "uid": 20883,
    "name": "ZAYNIYAH, Jamal Husayn",
    "type": "individual",
@@ -46909,31 +46757,6 @@
    ],
    "alternateNames": [
     "CENTRE DE LOISIR SAFARI CLUB"
-   ]
-  },
-  {
-   "uid": 21265,
-   "name": "AL-HASRI, Bassam Ahmad",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "HUSARI, Bassam Ahmad"
-   ]
-  },
-  {
-   "uid": 21266,
-   "name": "KHALIL, Iyad Nazmi Salih",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "KHALIL, Ayyad Nazmi Salih",
-    "KHALIL, Eyad Nazmi Saleh",
-    "AL-TOUBASI, Iyad",
-    "AL-TUBASI, Iyad"
    ]
   },
   {
@@ -53008,7 +52831,8 @@
     "SDGT",
     "IRGC",
     "IFSR",
-    "HRIT-IR"
+    "HRIT-IR",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": [
     "IRGC JANGAL ORGANIZATION",
@@ -71526,10 +71350,12 @@
    "name": "ABDOLLAHI, Ali",
    "type": "individual",
    "programs": [
-    "IRAN-EO13876"
+    "IRAN-EO13876",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": [
-    "ABDOLLAHI ALIABADI, Ali"
+    "ABDOLLAHI ALIABADI, Ali",
+    "ABDOLLAHI ALI ABADI, Ali"
    ]
   },
   {
@@ -82529,21 +82355,6 @@
    ],
    "alternateNames": [
     "VLADISLAV STRIZHOV"
-   ]
-  },
-  {
-   "uid": 31811,
-   "name": "FAYZIMATOV, Farrukh Furkatovitch",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "SHAMI, Faruq",
-    "AL-SHAMI, Faruk",
-    "SHAMI, Faruk",
-    "ASH-SHAMI, Faruk",
-    "FAYZIMATOV, Faruk Furkatovich"
    ]
   },
   {
@@ -122546,17 +122357,6 @@
    "alternateNames": [
     "SARI, Kubilav",
     "KUBILAY, Sari"
-   ]
-  },
-  {
-   "uid": 42478,
-   "name": "ALSHEAK, Omar",
-   "type": "individual",
-   "programs": [
-    "SDGT"
-   ],
-   "alternateNames": [
-    "AL-SHEIKH, Jihad Issa"
    ]
   },
   {
@@ -164979,10 +164779,13 @@
    "programs": [
     "NPWMD",
     "IRGC",
-    "IFSR"
+    "IFSR",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": [
-    "IFTIKHARI, Sayyid Husayn Musawi"
+    "IFTIKHARI, Sayyid Husayn Musawi",
+    "MOUSAVI, Sayid Majid",
+    "MOUSAVI, Majid"
    ]
   },
   {
@@ -198268,6 +198071,51 @@
    "alternateNames": []
   },
   {
+   "uid": 57061,
+   "name": "BLAGH, Keyvan Fayyaz Gareh",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 57062,
+   "name": "BALUJEH, Saber Shahbazi",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 57063,
+   "name": "KADKHODA'I, Mohammad Reza",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 57064,
+   "name": "GHAL'EH-KUHI, Mojtaba",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 57065,
+   "name": "KAHZADIAN, Arman",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 57070,
    "name": "BIAN, Feiwu",
    "type": "individual",
@@ -204637,7 +204485,8 @@
    "name": "DADENEGAR STARTUP STUDIO",
    "type": "entity",
    "programs": [
-    "SDGT"
+    "SDGT",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": []
   },
@@ -205605,11 +205454,374 @@
    "alternateNames": []
   },
   {
+   "uid": 58310,
+   "name": "SIFRA SHIPPING COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58311,
+   "name": "SIFRA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58312,
+   "name": "VIENNA SHIPPING CO., LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58313,
+   "name": "G SILVER",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58315,
+   "name": "AMDEH SHIP MANAGEMENT AND OPERATION CO. L.L.C",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58316,
+   "name": "RIQUEZA GROUP LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58317,
+   "name": "LILIMOON NAVIGATION INC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58319,
+   "name": "ESTANICA TRADING LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58320,
+   "name": "QUANTUM HOPE",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58321,
+   "name": "VOYAGE ELITE",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58323,
+   "name": "TELA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58324,
+   "name": "FATTOUH, Mohammad Ahmed Suhil",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58325,
+   "name": "FOSCOM FZE",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58326,
+   "name": "OBUKHOV, Ivan",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58327,
+   "name": "FEILI CO LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58328,
+   "name": "MINVUR LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58329,
+   "name": "FEISU LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58330,
+   "name": "GUSKA CO LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58331,
+   "name": "SWEET OCEAN INDUSTRIAL LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58332,
+   "name": "LI, Na",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58333,
+   "name": "TIAN, Jianbai",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58334,
+   "name": "SHENZHEN SWEET OCEAN TECHNOLOGY LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "SHEN ZHEN SWEET OCEAN TECHNOLOGY LIMITED",
+    "SHENZHEN CHENTAO TECHNOLOGY CO LTD"
+   ]
+  },
+  {
+   "uid": 58336,
+   "name": "TIANY TECHNOLOGY LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58337,
+   "name": "MT TRADING AND LOGISTICS HK LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58339,
+   "name": "NOAVARAN AXIS PRIVATE JOINT STOCK COMPANY",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "NOAVARAN AXIS INTERNATIONAL TRANSPORTATION COMPANY",
+    "AXIS INNOVATIONS PRIVATE JOINT STOCK COMPANY",
+    "NOAVARAN AXIS BRE"
+   ]
+  },
+  {
+   "uid": 58340,
+   "name": "MOGHADDAM, Mohammad Hossein Aslani",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58341,
+   "name": "BRE INTERNATIONAL LOGISTICS CORPORATION HK LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58342,
+   "name": "SHENZHEN HUAMEI LIANYUN INTERNATIONAL LOGISTICS CO LTD",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "SHENZHEN HUAMEI INTERMODAL LOGISTICS CO LTD",
+    "HUAMEI INTERNATIONAL LOGISTICS CO LTD"
+   ]
+  },
+  {
+   "uid": 58343,
+   "name": "QIU, Xingyu",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58344,
+   "name": "SHENZHEN BOSITONG LOGISTICS CO LTD",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "SHENZHEN PERSIAN LOGISTICS CO LTD"
+   ]
+  },
+  {
    "uid": 58345,
    "name": "MERO MERO, Alfonso",
    "type": "individual",
    "programs": [
     "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58346,
+   "name": "BOSITONG SUPPLY CHAIN SHENZHEN CO LTD",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58347,
+   "name": "DEC PHOTONICS LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58348,
+   "name": "RPT TECHNOLOGY LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58349,
+   "name": "ZHANG, Limei",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58350,
+   "name": "AZURE SHIPPING PTE. LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58351,
+   "name": "ARC CHARTERING PTE. LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58352,
+   "name": "SKY OIL AND GAS ASIA LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
    ],
    "alternateNames": []
   },
@@ -205664,6 +205876,26 @@
    "type": "vessel",
    "programs": [
     "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58359,
+   "name": "VAST MART SDN BHD",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58360,
+   "name": "HK JIATAI TECHNOLOGY LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
    ],
    "alternateNames": []
   },
@@ -205826,6 +206058,197 @@
    "alternateNames": []
   },
   {
+   "uid": 58388,
+   "name": "HUZUR PLASTIK KIMYEVI MADDELER ITHALAT IHRACAT SANAYI VE TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58389,
+   "name": "BEKGOZ, Cengiz",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": [
+    "BEKGOEZ, Cengiz"
+   ]
+  },
+  {
+   "uid": 58392,
+   "name": "PRAKRUTEES INFRA IMPEX INDIA PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58393,
+   "name": "PP SOFTTECH PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58394,
+   "name": "SADASHIVA OVERSEAS LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": [
+    "PJS OVERSEAS LIMITED"
+   ]
+  },
+  {
+   "uid": 58395,
+   "name": "GARG, Prashant",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58396,
+   "name": "UNIQUE OASIS SHIPPING SERVICES LLC",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58397,
+   "name": "SHIP FUELS AND TRADE DMCC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "SHIP FUELS AND TRADE FZCO"
+   ]
+  },
+  {
+   "uid": 58398,
+   "name": "SHIPOIL FZCO",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "SHIPOIL DMCC"
+   ]
+  },
+  {
+   "uid": 58399,
+   "name": "GOOD LUCK SHIPPING LLC",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58400,
+   "name": "SHIPOIL LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58401,
+   "name": "TARGET HORIZON SHIPPING LLC",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58402,
+   "name": "STARPLAS KIMYA SANAYI VE TICARET ANONIM SIRKET",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58403,
+   "name": "PORTEASE PARTNERS LLP",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58404,
+   "name": "SELFPLAST PLASTIK AMBALAJ SANAYI DIS TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": [
+    "SELFPLAST PLASTIC PACKAGING INDUSTRY FOREIGN TRADE LIMITED COMPANY"
+   ]
+  },
+  {
+   "uid": 58405,
+   "name": "SELENIUM RESOURCES LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58406,
+   "name": "ABHAR POLYMER COMPOUNDS CO.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": [
+    "ABHAR POLYMER BLEND PRODUCTIONS"
+   ]
+  },
+  {
+   "uid": 58408,
+   "name": "TSORIS, Georgios",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "TSORIS, George"
+   ]
+  },
+  {
+   "uid": 58409,
+   "name": "TSORIS, Almpertos",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "TSORIS, Alberto"
+   ]
+  },
+  {
    "uid": 58410,
    "name": "AKANE, Tomoko",
    "type": "individual",
@@ -205840,6 +206263,151 @@
    "type": "individual",
    "programs": [
     "ICC-EO14203"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58412,
+   "name": "TALAEI NIK, Reza",
+   "type": "individual",
+   "programs": [
+    "IRAN-CON-ARMS-EO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58413,
+   "name": "HATAMI, Amir",
+   "type": "individual",
+   "programs": [
+    "IRAN-CON-ARMS-EO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58414,
+   "name": "ZOLQADR, Mohammad Baqer",
+   "type": "individual",
+   "programs": [
+    "IRAN-CON-ARMS-EO"
+   ],
+   "alternateNames": [
+    "ZULQADER, Mohammad Baqer",
+    "ZOLGHADR, Mohammad Bagher"
+   ]
+  },
+  {
+   "uid": 58431,
+   "name": "WELLBRED CAPITAL PTE. LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "WELLBRED INTERNATIONAL LLC",
+    "MIDWAY FACTORY PARTNERS PTE. LTD."
+   ]
+  },
+  {
+   "uid": 58432,
+   "name": "WELLBRED TRADING FZCO",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "WELLBRED TRADING DMCC"
+   ]
+  },
+  {
+   "uid": 58433,
+   "name": "WELLBRED TRADING SA",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58434,
+   "name": "LA NIVERNAISE DE RAFFINAGE SAS",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58435,
+   "name": "FARAHI, Mohsen",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": [
+    "FARAHI, Mohsen Mohammad"
+   ]
+  },
+  {
+   "uid": 58436,
+   "name": "OSHIDA PETROKIMYA URUNLERI SANAYI VE TICARET ANONIM SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58437,
+   "name": "CLEVER SHIPPING LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58438,
+   "name": "STAR PIONE",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58439,
+   "name": "DADASHOVA, Narmina",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58440,
+   "name": "RANGI, Harish Ramchandra",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58441,
+   "name": "SHEKH, Indrismiya Asharafmiya",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58442,
+   "name": "GANDHI, Mansoor Tayabbhai",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
    ],
    "alternateNames": []
   },
