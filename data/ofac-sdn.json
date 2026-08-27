@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19314 designated entries and 20144 alternate identities (39458 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-21 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19319 designated entries and 20147 alternate identities (39466 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-25 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-21",
- "retrieved": "2026-08-26",
+ "published": "2026-08-25",
+ "retrieved": "2026-08-27",
  "counts": {
-  "entries": 19314,
-  "alternateNames": 20144,
-  "totalNames": 39458
+  "entries": 19319,
+  "alternateNames": 20147,
+  "totalNames": 39466
  },
  "typeCounts": {
-  "entity": 9918,
-  "individual": 7514,
+  "entity": 9921,
+  "individual": 7516,
   "vessel": 1540,
   "aircraft": 342
  },
@@ -25,7 +25,7 @@
   ],
   [
    "SDGT",
-   3253
+   3258
   ],
   [
    "IFSR",
@@ -204019,6 +204019,17 @@
    "alternateNames": []
   },
   {
+   "uid": 58105,
+   "name": "PALESTINE ACTION",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "PALESTINE ACTION GROUP"
+   ]
+  },
+  {
    "uid": 58106,
    "name": "CICCIO",
    "type": "vessel",
@@ -205490,6 +205501,15 @@
    "alternateNames": []
   },
   {
+   "uid": 58314,
+   "name": "AUTISTICI INVENTATI",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58315,
    "name": "AMDEH SHIP MANAGEMENT AND OPERATION CO. L.L.C",
    "type": "entity",
@@ -206530,6 +206550,37 @@
    "type": "individual",
    "programs": [
     "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58462,
+   "name": "MASAR BADIL",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "PALESTINIAN ALTERNATIVE REVOLUTIONARY PATH MOVEMENT"
+   ]
+  },
+  {
+   "uid": 58463,
+   "name": "ALSAGHEER, Rawa",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "AL-SAGHIR, Ruwaa"
+   ]
+  },
+  {
+   "uid": 58464,
+   "name": "ABDULNASSER, Zaid",
+   "type": "individual",
+   "programs": [
+    "SDGT"
    ],
    "alternateNames": []
   }
