@@ -1,27 +1,27 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19321 designated entries and 20147 alternate identities (39468 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-27 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19326 designated entries and 20144 alternate identities (39470 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-02 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-27",
- "retrieved": "2026-09-03",
+ "published": "2026-09-02",
+ "retrieved": "2026-09-04",
  "counts": {
-  "entries": 19321,
-  "alternateNames": 20147,
-  "totalNames": 39468
+  "entries": 19326,
+  "alternateNames": 20144,
+  "totalNames": 39470
  },
  "typeCounts": {
-  "entity": 9922,
-  "individual": 7517,
+  "entity": 9926,
+  "individual": 7518,
   "vessel": 1540,
   "aircraft": 342
  },
  "topPrograms": [
   [
    "RUSSIA-EO14024",
-   6349
+   6348
   ],
   [
    "SDGT",
@@ -122743,19 +122743,6 @@
    ]
   },
   {
-   "uid": 42734,
-   "name": "DULAC CAPITAL LTD",
-   "type": "entity",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": [
-    "PREDSTAVITELSTVO AKTSIONERNOGO OBSHCHESTVA DYULAK KEPITAL LTD SHVEITSARIYA V G SANKT PETERBURGE",
-    "PREDSTAVITELSTVO AKTSIONERNOGO OBSHCHESTVA DYULAK KEPITAL LTD SHVEITSARIYA V G MOSCOW",
-    "AK DYULAK KEPITAL LTD PREDSTAVITELSTVO"
-   ]
-  },
-  {
    "uid": 42735,
    "name": "SCHMUCKI, Anselm Oskar",
    "type": "individual",
@@ -206600,6 +206587,60 @@
    "type": "entity",
    "programs": [
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58486,
+   "name": "EMPRESA DE SERVICIOS COMANDANTE RENE RAMOS LATOUR",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58487,
+   "name": "EMPRESA IMPORTADORA Y ABASTECEDORA DEL NIQUEL",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58488,
+   "name": "COMERCIAL CUPET S.A.",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58489,
+   "name": "EMPRESA IMPORTADORA DE ABASTECIMIENTO PARA EL PETROLEO",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58490,
+   "name": "BANCO EXTERIOR DE CUBA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58491,
+   "name": "CASTRO CALIS, Fidel Ernesto",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   }

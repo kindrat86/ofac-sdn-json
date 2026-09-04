@@ -1,27 +1,27 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19321 designated entries and 20147 alternate identities (39468 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-08-27 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19326 designated entries and 20144 alternate identities (39470 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-02 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-08-27",
- "retrieved": "2026-09-03",
+ "published": "2026-09-02",
+ "retrieved": "2026-09-04",
  "counts": {
-  "entries": 19321,
-  "alternateNames": 20147,
-  "totalNames": 39468
+  "entries": 19326,
+  "alternateNames": 20144,
+  "totalNames": 39470
  },
  "typeCounts": {
-  "entity": 9922,
-  "individual": 7517,
+  "entity": 9926,
+  "individual": 7518,
   "vessel": 1540,
   "aircraft": 342
  },
  "topPrograms": [
   [
    "RUSSIA-EO14024",
-   6349
+   6348
   ],
   [
    "SDGT",
@@ -111,7 +111,7 @@
   }
  ],
  "bytes": {
-  "json": 3743075,
-  "csv": 1665428
+  "json": 3743672,
+  "csv": 1665555
  }
 }
