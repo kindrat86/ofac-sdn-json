@@ -1,19 +1,19 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19326 designated entries and 20144 alternate identities (39470 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-02 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19329 designated entries and 20145 alternate identities (39474 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-03 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-02",
- "retrieved": "2026-09-04",
+ "published": "2026-09-03",
+ "retrieved": "2026-09-05",
  "counts": {
-  "entries": 19326,
-  "alternateNames": 20144,
-  "totalNames": 39470
+  "entries": 19329,
+  "alternateNames": 20145,
+  "totalNames": 39474
  },
  "typeCounts": {
-  "entity": 9926,
+  "entity": 9929,
   "individual": 7518,
   "vessel": 1540,
   "aircraft": 342
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   941
+   944
   ],
   [
    "GLOMAG",
@@ -206641,6 +206641,35 @@
    "type": "individual",
    "programs": [
     "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58544,
+   "name": "GOLDEN GLOBAL YATIRIM BANKASI ANONIM SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "GOLDEN GLOBAL INVESTMENT BANK"
+   ]
+  },
+  {
+   "uid": 58545,
+   "name": "GOLDEN GLOBAL VARLIK KIRALAMA ANONIM SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58548,
+   "name": "GOLDEN GLOBAL PORTFOY YONETIMI ANONIM SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
    ],
    "alternateNames": []
   }
