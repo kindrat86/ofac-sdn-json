@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19329 designated entries and 20145 alternate identities (39474 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-03 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19365 designated entries and 20182 alternate identities (39547 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-04 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-03",
- "retrieved": "2026-09-08",
+ "published": "2026-09-04",
+ "retrieved": "2026-09-09",
  "counts": {
-  "entries": 19329,
-  "alternateNames": 20145,
-  "totalNames": 39474
+  "entries": 19365,
+  "alternateNames": 20182,
+  "totalNames": 39547
  },
  "typeCounts": {
-  "entity": 9929,
-  "individual": 7518,
+  "entity": 9964,
+  "individual": 7519,
   "vessel": 1540,
   "aircraft": 342
  },
@@ -25,11 +25,11 @@
   ],
   [
    "SDGT",
-   3259
+   3268
   ],
   [
    "IFSR",
-   1574
+   1610
   ],
   [
    "SDNTK",
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   944
+   971
   ],
   [
    "GLOMAG",
@@ -206641,6 +206641,424 @@
    "type": "individual",
    "programs": [
     "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58492,
+   "name": "S SISTEM LOJISTIK HIZMETLER ANONIM SIRKETI",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "S SISTEM LOGISTICS SERVICES JOINT STOCK COMPANY"
+   ]
+  },
+  {
+   "uid": 58494,
+   "name": "ATA AIRLINES COMPANY",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58495,
+   "name": "IRAN AIR TOUR",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "IRAN AIRTOUR AIRLINE",
+    "IRAN AIRTOUR AIRLINES",
+    "IRAN AIR TOURS COMPANY"
+   ]
+  },
+  {
+   "uid": 58496,
+   "name": "ICARGO SDN BHD",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "SCHEDULE FEEDERS SDN BHD"
+   ]
+  },
+  {
+   "uid": 58497,
+   "name": "IRAN ASEMAN AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ASEMAN AIR SERVICES"
+   ]
+  },
+  {
+   "uid": 58498,
+   "name": "KARUN AIRLINES COMPANY",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "KAROON AIRLINES"
+   ]
+  },
+  {
+   "uid": 58499,
+   "name": "TOUR INVEST LLC",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "LIMITED LIABILITY COMPANY TOUR INVEST",
+    "TOUR INVEST TOO",
+    "TUR INVEST TOO"
+   ]
+  },
+  {
+   "uid": 58500,
+   "name": "MES CARGO TRANSPORTATION TOURISM AND FOREIGN TRADE LIMITED COMPANY",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "MES KARGO TASIMACILIK TURIZM VE DIS TICARET LIMITED SIRKETI",
+    "MEHMET SARP CARGO"
+   ]
+  },
+  {
+   "uid": 58505,
+   "name": "ECT AVIATION SUPPORT LLC",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58508,
+   "name": "VARESH AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58509,
+   "name": "AIR SHIRAZ",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58510,
+   "name": "KISH AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "KISH AIR"
+   ]
+  },
+  {
+   "uid": 58511,
+   "name": "TOOS AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "TOOS PARSIAN KISH AIRLINES COMPANY",
+    "TOOS AIRLINE"
+   ]
+  },
+  {
+   "uid": 58512,
+   "name": "ERWAN AIRLINE COMPANY",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ARVAN AIRLINES",
+    "ERWAN AIRLINES",
+    "AIR1AIR COMPANY"
+   ]
+  },
+  {
+   "uid": 58513,
+   "name": "ASA JET AIRLINE",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58514,
+   "name": "SOROUSH AIR",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58515,
+   "name": "ATLAS AVIATION GROUP",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ATLAS AIR PLUS"
+   ]
+  },
+  {
+   "uid": 58516,
+   "name": "SEPEHRAN AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "FLYSEPEHRAN"
+   ]
+  },
+  {
+   "uid": 58517,
+   "name": "QESHM AIR",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "QESHM AIRLINES",
+    "QESHM AIR AIRLINE"
+   ]
+  },
+  {
+   "uid": 58518,
+   "name": "TABAN AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58519,
+   "name": "SAHA AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "SAHA AIRLINES PJSC",
+    "SERVICE ERTEBAATAAT-E HAVAAEE ARTESH",
+    "ARMED FORCES AIR TRANSPORT SERVICE"
+   ]
+  },
+  {
+   "uid": 58520,
+   "name": "SKY PHOENIX HAVA YOLLARI TASIMACILIGI TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "SKY PHOENIX AIRWAYS TRANSPORTATION TRADING COMPANY LIMITED"
+   ]
+  },
+  {
+   "uid": 58521,
+   "name": "ECT AVIATION SUPPORT LTD",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58522,
+   "name": "MAHRAN, Ibrahim Ali Mohamed Mohamed",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "IBRAHIM, Mahran"
+   ]
+  },
+  {
+   "uid": 58523,
+   "name": "ZAGROS AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ZAGROS AIRLINE CO"
+   ]
+  },
+  {
+   "uid": 58524,
+   "name": "AEROBRAVO AIRPLANE MANAGEMENT AND OPERATION LLC",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58526,
+   "name": "AVA AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58529,
+   "name": "CHABAHAR AIRLINES COMPANY",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "CHABAHAR AVIATION COMPANY",
+    "CHABAHAR AIR",
+    "CHABAHAR AIRLINES"
+   ]
+  },
+  {
+   "uid": 58530,
+   "name": "FLY KISH AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58531,
+   "name": "FLY PERSIA AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "FLY PERSIA PRIVATE JOINT STOCK COMPANY",
+    "FLY PERSIA PRIVATE DANA AIRLINES",
+    "FLY PERSIA"
+   ]
+  },
+  {
+   "uid": 58532,
+   "name": "JSKY AIRLINES",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58533,
+   "name": "LAD AIRWAYS",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "LAD AIRLINE SERVICES"
+   ]
+  },
+  {
+   "uid": 58534,
+   "name": "MEHR AIRWAYS",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58535,
+   "name": "NASIM AIR",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58537,
+   "name": "PARS OGHYANOUS KISH COMPANY",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "PARS AIRLINES",
+    "PARS AIR"
+   ]
+  },
+  {
+   "uid": 58538,
+   "name": "RAIMON AIRWAYS",
+   "type": "entity",
+   "programs": [
+    "IFSR",
+    "IRAN-EO13902"
    ],
    "alternateNames": []
   },
