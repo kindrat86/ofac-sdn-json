@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19369 designated entries and 20181 alternate identities (39550 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-08 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19388 designated entries and 20206 alternate identities (39594 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-09 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-08",
- "retrieved": "2026-09-10",
+ "published": "2026-09-09",
+ "retrieved": "2026-09-11",
  "counts": {
-  "entries": 19369,
-  "alternateNames": 20181,
-  "totalNames": 39550
+  "entries": 19388,
+  "alternateNames": 20206,
+  "totalNames": 39594
  },
  "typeCounts": {
-  "entity": 9968,
-  "individual": 7519,
+  "entity": 9973,
+  "individual": 7533,
   "vessel": 1540,
   "aircraft": 342
  },
@@ -25,7 +25,7 @@
   ],
   [
    "SDGT",
-   3269
+   3285
   ],
   [
    "IFSR",
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   971
+   974
   ],
   [
    "GLOMAG",
@@ -202097,6 +202097,24 @@
    "alternateNames": []
   },
   {
+   "uid": 57834,
+   "name": "AL-DHUHAIBAWI, Hussein Ahmed Hussein",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 57835,
+   "name": "AL-SHAIKHLI, Mohamed Ameen Fadhil Ali",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 57837,
    "name": "FUTURE WING FINANCIAL COMPANY LIMITED",
    "type": "entity",
@@ -202643,6 +202661,24 @@
    "alternateNames": []
   },
   {
+   "uid": 57896,
+   "name": "AL-HRAISHAWI, Karrar Mohammed Qasim",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 57897,
+   "name": "AL-LAMI, Ali Hasan Farhan",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 57898,
    "name": "MINISTRY OF THE REVOLUTIONARY ARMED FORCES OF CUBA",
    "type": "entity",
@@ -202748,6 +202784,44 @@
     "IFSR"
    ],
    "alternateNames": []
+  },
+  {
+   "uid": 57915,
+   "name": "SHAMS AND BAHR TRADING COMPANY L.L.C.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "SUN SEA GENERAL TRADING LLC",
+    "SHAMS AND BAHIR",
+    "SHAMS WA BAHR",
+    "SUN & SEA GENERAL TRADING CO LLC",
+    "SHAMS & BAHR TRADING COMPANY L.L.C."
+   ]
+  },
+  {
+   "uid": 57916,
+   "name": "AL-MANDALAWI, Majid Ali Akbar Namdar",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "AL-KURDI, Majid 'Ali Akbar"
+   ]
+  },
+  {
+   "uid": 57917,
+   "name": "AL-MANDALAWI, Abdulhasan Ali Akbar Namdar",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "NAMDAR, Abdulhasan",
+    "NAMDAR, Abdulhasan Ali Akbar"
+   ]
   },
   {
    "uid": 57918,
@@ -206986,6 +207060,15 @@
    "alternateNames": []
   },
   {
+   "uid": 58525,
+   "name": "IBRAHIM, Hussein",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58526,
    "name": "AVA AIRLINES",
    "type": "entity",
@@ -207126,6 +207209,132 @@
     "IRAN-EO13902"
    ],
    "alternateNames": []
+  },
+  {
+   "uid": 58552,
+   "name": "HAMIEH, Abdallah",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "HAMEYE, Abdallah",
+    "HAMIYAH, Abdallah"
+   ]
+  },
+  {
+   "uid": 58553,
+   "name": "WEHBE, Ghaith Hussein",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "WAHIBI, Ghayth Husayn"
+   ]
+  },
+  {
+   "uid": 58554,
+   "name": "ZAHRELDINE, Mervat Jamil",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "ZAHREDDINE, Mervat Jamil",
+    "ZAHR EDDINE, Mirvat",
+    "ZAHREDDINE, Marwa Jamil"
+   ]
+  },
+  {
+   "uid": 58555,
+   "name": "YOUSEF IBRAHIM MANSOUR AND PARTNER FOR EXCHANGE",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "YOUSSEF IBRAHIM MANSOUR AND CO. FOR EXCHANGE",
+    "YOUSSEF IBRAHIM MANSOUR FOR EXCHANGE"
+   ]
+  },
+  {
+   "uid": 58556,
+   "name": "GOLD PRO SARL",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58557,
+   "name": "AL-MAKANSI, Amir",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "MAKANSI, Amir"
+   ]
+  },
+  {
+   "uid": 58558,
+   "name": "AL-TAMEEMI, Abbas Jawad Kadhim",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "AL-TAMIMI, Abbas Jawad Kazim"
+   ]
+  },
+  {
+   "uid": 58559,
+   "name": "AL AMERI, Abdullah Nadhim Luaibi",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "AL AMIRI, Abdallah Nazim Luaybi"
+   ]
+  },
+  {
+   "uid": 58560,
+   "name": "AL BROUJ FOR GENERAL CONTRACTING COMPANY",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "AL-BROJ COMPANY FOR CONTRACTING, GENERAL TRADING, TRANSPORTATION LTD"
+   ]
+  },
+  {
+   "uid": 58561,
+   "name": "AIN AL IRAQ FOR PROTECTION SYSTEMS TECHNOLOGY AND AUDIO, VISUAL, AND COMMUNICATIONS SOLUTIONS COMPANY LTD",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "EIN AL-IRAQ COMPANY",
+    "AYN AL-IRAQ COMPANY",
+    "EYE OF IRAQ COMPANY"
+   ]
+  },
+  {
+   "uid": 58562,
+   "name": "AL ABADA, Khaldoon Naser Maryoosh",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "AL-ABADA, Khaldun Nasir Mariush",
+    "AL-'IBADA, Khaldun Nasir Mariyush"
+   ]
   }
  ]
 }
