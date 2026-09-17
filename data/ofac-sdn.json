@@ -1,27 +1,27 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19388 designated entries and 20206 alternate identities (39594 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-11 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19385 designated entries and 20206 alternate identities (39591 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-15 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-11",
- "retrieved": "2026-09-16",
+ "published": "2026-09-15",
+ "retrieved": "2026-09-17",
  "counts": {
-  "entries": 19388,
+  "entries": 19385,
   "alternateNames": 20206,
-  "totalNames": 39594
+  "totalNames": 39591
  },
  "typeCounts": {
-  "entity": 9973,
-  "individual": 7533,
+  "entity": 9972,
+  "individual": 7531,
   "vessel": 1540,
   "aircraft": 342
  },
  "topPrograms": [
   [
    "RUSSIA-EO14024",
-   6348
+   6346
   ],
   [
    "SDGT",
@@ -33,7 +33,7 @@
   ],
   [
    "SDNTK",
-   1365
+   1364
   ],
   [
    "NPWMD",
@@ -14860,15 +14860,6 @@
    "programs": [
     "NPWMD",
     "IFSR"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 10982,
-   "name": "VEGA SANCHEZ, Jose Raul",
-   "type": "individual",
-   "programs": [
-    "SDNTK"
    ],
    "alternateNames": []
   },
@@ -116747,15 +116738,6 @@
    "alternateNames": []
   },
   {
-   "uid": 40948,
-   "name": "BOMATTER, Hans Peter",
-   "type": "individual",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 40949,
    "name": "MORETTI, Svetlana Alekseyevna",
    "type": "individual",
@@ -168168,15 +168150,6 @@
     "KIONI",
     "TOBA"
    ]
-  },
-  {
-   "uid": 51041,
-   "name": "MODULSAN MAKINA KESICI TAKIM VE DISLI SANAYI TICARET LIMITED SIRKETI",
-   "type": "entity",
-   "programs": [
-    "RUSSIA-EO14024"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 51043,
