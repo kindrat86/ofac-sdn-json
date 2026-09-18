@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19385 designated entries and 20206 alternate identities (39591 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-15 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19399 designated entries and 20215 alternate identities (39614 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-16 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-15",
- "retrieved": "2026-09-17",
+ "published": "2026-09-16",
+ "retrieved": "2026-09-18",
  "counts": {
-  "entries": 19385,
-  "alternateNames": 20206,
-  "totalNames": 39591
+  "entries": 19399,
+  "alternateNames": 20215,
+  "totalNames": 39614
  },
  "typeCounts": {
-  "entity": 9972,
-  "individual": 7531,
+  "entity": 9980,
+  "individual": 7537,
   "vessel": 1540,
   "aircraft": 342
  },
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   975
+   980
   ],
   [
    "GLOMAG",
@@ -53,7 +53,7 @@
   ],
   [
    "IRAN",
-   674
+   679
   ],
   [
    "UKRAINE-EO13662",
@@ -14145,17 +14145,6 @@
     "POLOTSK-STEKLOVOLOKNO JSC SD STEKLOKOMPOZIT",
     "POLOTSK-STEKLOVOLOKNO JSC",
     "POLOTSK PRODUCTION ASSOCIATION STEKLOVOLOKNO"
-   ]
-  },
-  {
-   "uid": 10756,
-   "name": "LAKOKRASKA OAO",
-   "type": "entity",
-   "programs": [
-    "BELARUS"
-   ],
-   "alternateNames": [
-    "LAKOKRASKA OPEN JOINT-STOCK COMPANY"
    ]
   },
   {
@@ -137169,18 +137158,6 @@
    ]
   },
   {
-   "uid": 46477,
-   "name": "BELARUSIAN PRODUCTION AND TRADE CONCERN OF TIMBER WOODWORKING AND PULP AND PAPER INDUSTRY",
-   "type": "entity",
-   "programs": [
-    "BELARUS-EO14038"
-   ],
-   "alternateNames": [
-    "KONTSERN BELLESBUMPROM",
-    "BIELARUSKI VYTVORCHA HANDLIOVY KANCERN LIASNOJ DREVAAPRACOWCHAJ I CELIULOZNA PAPIAROVAJ PRAMYSLOVASCI"
-   ]
-  },
-  {
    "uid": 46478,
    "name": "REPUBLICAN PRODUCTION AND TRADE UNITARY ENTERPRISE MANAGEMENT COMPANY OF THE HOLDING BELARUSIAN CEMENT COMPANY",
    "type": "entity",
@@ -207308,6 +207285,176 @@
    "alternateNames": [
     "AL-ABADA, Khaldun Nasir Mariush",
     "AL-'IBADA, Khaldun Nasir Mariyush"
+   ]
+  },
+  {
+   "uid": 58614,
+   "name": "EMPRESA DE SERVICIOS TECNICOS DE COMPUTACION COMUNICACIONES Y ELECTRONICA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "EMPRESA DE SERVICIOS DE COMPUTACION COMUNICACIONES Y ELECTRONICA DEL NIQUEL RAFAEL FAUSTO OREJON FORMENT"
+   ]
+  },
+  {
+   "uid": 58615,
+   "name": "EMPRESA DE INGENIERIA Y PROYECTOS DEL NIQUEL",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "CEPRONIQUEL"
+   ]
+  },
+  {
+   "uid": 58616,
+   "name": "CENTRO DE INVESTIGACIONES DEL NIQUEL CAPITAN ALBERTO FERNANDEZ MONTES DE OCA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "CEDINIQ"
+   ]
+  },
+  {
+   "uid": 58617,
+   "name": "PINARES S.A.",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58618,
+   "name": "PISHTAZ SIMORGH ELECTRONIC TRADE COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "PISHTAZ SIMORGH COMPANY",
+    "TEJARAT ELECTRONIC PISHTAZ SIMORGH"
+   ]
+  },
+  {
+   "uid": 58619,
+   "name": "BITBANK",
+   "type": "entity",
+   "programs": [
+    "IRAN",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "BITBANK3"
+   ]
+  },
+  {
+   "uid": 58620,
+   "name": "ZAKER HOSSEIN, Hossein Ali",
+   "type": "individual",
+   "programs": [
+    "IRAN",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58630,
+   "name": "ZAKER HOSSEIN, Mohammad Mahdi",
+   "type": "individual",
+   "programs": [
+    "IRAN",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ZAKER HOSSEIN, Hamed"
+   ]
+  },
+  {
+   "uid": 58631,
+   "name": "HEIDARI, Seyed Adel",
+   "type": "individual",
+   "programs": [
+    "IRAN",
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58647,
+   "name": "CENTRO DE INVESTIGACION Y DESARROLLO DE SIMULADORES",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "EMPRESA DE CIENCIA Y TECNOLOGIA SIMULADORES"
+   ]
+  },
+  {
+   "uid": 58648,
+   "name": "CANCIO MONTEAGUDO, Joaquin Francisco",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58649,
+   "name": "CENTRO DE INVESTIGACION Y DESARROLLO NAVAL",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "CIDNAV"
+   ]
+  },
+  {
+   "uid": 58650,
+   "name": "PEDRERA ARGUELLO, Dioglis",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58651,
+   "name": "CENTRO DE INVESTIGACION Y DESARROLLO DE ARMAMENTO DE INFANTERIA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58652,
+   "name": "HURTADO BETANCOURT, Julio",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58653,
+   "name": "CENTRO DE INVESTIGACION, DESARROLLO Y PRODUCCION GRITO DE BAIRE",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "CENTRO DE INVESTIGACION Y DESARROLLO GRITO DE BAIRE",
+    "GRITO DE BAIRE CENTER FOR RESEARCH AND DEVELOPMENT AND PRODUCTION",
+    "CIDP GRITO DE BAIRE"
    ]
   }
  ]
