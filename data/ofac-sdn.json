@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19399 designated entries and 20215 alternate identities (39614 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-16 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19393 designated entries and 20210 alternate identities (39603 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-17 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-16",
- "retrieved": "2026-09-18",
+ "published": "2026-09-17",
+ "retrieved": "2026-09-19",
  "counts": {
-  "entries": 19399,
-  "alternateNames": 20215,
-  "totalNames": 39614
+  "entries": 19393,
+  "alternateNames": 20210,
+  "totalNames": 39603
  },
  "typeCounts": {
-  "entity": 9980,
-  "individual": 7537,
+  "entity": 9976,
+  "individual": 7535,
   "vessel": 1540,
   "aircraft": 342
  },
@@ -86317,15 +86317,6 @@
    ]
   },
   {
-   "uid": 33451,
-   "name": "PEOPLE'S FRONT FOR DEMOCRACY AND JUSTICE",
-   "type": "entity",
-   "programs": [
-    "ETHIOPIA-EO14046"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 33452,
    "name": "HERNANDEZ SALAS, Ofelia",
    "type": "individual",
@@ -86434,30 +86425,6 @@
     "BASKOV, Dmitry",
     "BASKOV, Dmitriy",
     "BASKAU, Dzmitry"
-   ]
-  },
-  {
-   "uid": 33534,
-   "name": "W KIDAN, Hagos Ghebrehiwet",
-   "type": "individual",
-   "programs": [
-    "ETHIOPIA-EO14046"
-   ],
-   "alternateNames": [
-    "WOLDEKIDAN, Hagos Ghebrehiwet",
-    "WELDEKIDANE, Hagos Ghebrehiwet"
-   ]
-  },
-  {
-   "uid": 33535,
-   "name": "NEMARIAM, Abraha Kassa",
-   "type": "individual",
-   "programs": [
-    "ETHIOPIA-EO14046"
-   ],
-   "alternateNames": [
-    "KASSA, Wedi",
-    "KASSA, Abraha"
    ]
   },
   {
@@ -86570,17 +86537,6 @@
     "IFSR"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 33597,
-   "name": "ERITREAN DEFENSE FORCES",
-   "type": "entity",
-   "programs": [
-    "ETHIOPIA-EO14046"
-   ],
-   "alternateNames": [
-    "ERITREAN DEFENSE FORCE"
-   ]
   },
   {
    "uid": 33613,
@@ -88412,24 +88368,6 @@
    "alternateNames": [
     "MARLIN"
    ]
-  },
-  {
-   "uid": 33918,
-   "name": "RED SEA TRADING CORPORATION",
-   "type": "entity",
-   "programs": [
-    "ETHIOPIA-EO14046"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 33919,
-   "name": "HIDRI TRUST",
-   "type": "entity",
-   "programs": [
-    "ETHIOPIA-EO14046"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 33920,
