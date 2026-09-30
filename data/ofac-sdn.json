@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19391 designated entries and 20205 alternate identities (39596 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-22 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19444 designated entries and 20220 alternate identities (39664 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-29 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-22",
- "retrieved": "2026-09-29",
+ "published": "2026-09-29",
+ "retrieved": "2026-09-30",
  "counts": {
-  "entries": 19391,
-  "alternateNames": 20205,
-  "totalNames": 39596
+  "entries": 19444,
+  "alternateNames": 20220,
+  "totalNames": 39664
  },
  "typeCounts": {
-  "entity": 9975,
-  "individual": 7534,
+  "entity": 10005,
+  "individual": 7557,
   "vessel": 1540,
   "aircraft": 342
  },
@@ -25,11 +25,11 @@
   ],
   [
    "SDGT",
-   3285
+   3331
   ],
   [
    "IFSR",
-   1610
+   1620
   ],
   [
    "SDNTK",
@@ -37,19 +37,19 @@
   ],
   [
    "NPWMD",
-   1195
+   1205
   ],
   [
    "IRAN-EO13902",
    980
   ],
   [
-   "GLOMAG",
-   739
+   "ILLICIT-DRUGS-EO14059",
+   772
   ],
   [
-   "ILLICIT-DRUGS-EO14059",
-   729
+   "GLOMAG",
+   739
   ],
   [
    "IRAN",
@@ -102908,6 +102908,7 @@
    "name": "MG-FLOT LIMITED LIABILITY COMPANY",
    "type": "entity",
    "programs": [
+    "IRAN-CON-ARMS-EO",
     "RUSSIA-EO14024"
    ],
    "alternateNames": [
@@ -108838,6 +108839,7 @@
    "name": "RIVERA ZAZUETA, Jose Angel",
    "type": "individual",
    "programs": [
+    "SDGT",
     "ILLICIT-DRUGS-EO14059"
    ],
    "alternateNames": [
@@ -109926,6 +109928,7 @@
    "name": "ARZATE GARCIA, Alfonso",
    "type": "individual",
    "programs": [
+    "SDGT",
     "ILLICIT-DRUGS-EO14059"
    ],
    "alternateNames": []
@@ -109935,6 +109938,7 @@
    "name": "ARZATE GARCIA, Rene",
    "type": "individual",
    "programs": [
+    "SDGT",
     "ILLICIT-DRUGS-EO14059"
    ],
    "alternateNames": []
@@ -123491,6 +123495,7 @@
    "name": "JOINT STOCK COMPANY EXPERIMENTAL DESIGN BUREAU NAMED AFTER A.S. YAKOVLEV",
    "type": "entity",
    "programs": [
+    "IRAN-CON-ARMS-EO",
     "RUSSIA-EO14024"
    ],
    "alternateNames": [
@@ -205170,6 +205175,67 @@
    "alternateNames": []
   },
   {
+   "uid": 58279,
+   "name": "KAVOSHCOM ASIA R AND D GROUP",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "KAVOSHCOM R AND D GROUP"
+   ]
+  },
+  {
+   "uid": 58280,
+   "name": "EC MOJO TECHNOLOGY CO LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "SUNRISE ELECTRONICS CO LTD",
+    "CHENGZI TRADING CO LTD"
+   ]
+  },
+  {
+   "uid": 58281,
+   "name": "LALI, Parisa",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "LAALI, Parisa",
+    "LA'LI, Parisa"
+   ]
+  },
+  {
+   "uid": 58282,
+   "name": "LI, Fen",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58283,
+   "name": "AHMADY, Ali Fotowat",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "AHMADI, Ali Fotowat",
+    "AHMADI, Ali Fotovat"
+   ]
+  },
+  {
    "uid": 58284,
    "name": "KAYVANPOUR, Siavash",
    "type": "individual",
@@ -205338,11 +205404,34 @@
    "alternateNames": []
   },
   {
+   "uid": 58302,
+   "name": "ZAMBADA SICAIROS, Ismael",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "CICAIROS ZAMBADA, Ismael",
+    "SICAIROS AISPURO, Fernando"
+   ]
+  },
+  {
    "uid": 58303,
    "name": "MOUSAFAR, Masoud",
    "type": "individual",
    "programs": [
     "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58304,
+   "name": "GASTELUM GARCIA, Hildegardo",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
    ],
    "alternateNames": []
   },
@@ -206859,7 +206948,8 @@
    "type": "entity",
    "programs": [
     "IFSR",
-    "IRAN-EO13902"
+    "IRAN-EO13902",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": [
     "SAHA AIRLINES PJSC",
@@ -207201,6 +207291,48 @@
    ]
   },
   {
+   "uid": 58596,
+   "name": "TAJAMMAL, Waseem Pasha",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58598,
+   "name": "CAVALIER DYNAMICS PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58599,
+   "name": "CAVALIER DYNAMICS FOR TECHNOLOGIES COMPANY",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "CAVALIER DYNAMICS TECHNOLOGIES COMPANY"
+   ]
+  },
+  {
+   "uid": 58600,
+   "name": "CAVALIER DYNAMICS TEKNOLOJI TICARET ANONIM SIRKETI",
+   "type": "entity",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58614,
    "name": "EMPRESA DE SERVICIOS TECNICOS DE COMPUTACION COMUNICACIONES Y ELECTRONICA",
    "type": "entity",
@@ -207274,6 +207406,16 @@
    "programs": [
     "IRAN",
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58624,
+   "name": "MIA CENTRO CAMBIARIO, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
    ],
    "alternateNames": []
   },
@@ -207369,6 +207511,426 @@
     "GRITO DE BAIRE CENTER FOR RESEARCH AND DEVELOPMENT AND PRODUCTION",
     "CIDP GRITO DE BAIRE"
    ]
+  },
+  {
+   "uid": 58654,
+   "name": "TABATABAI, Seyyed Asghar Alizadeh",
+   "type": "individual",
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ],
+   "alternateNames": [
+    "TABATABAEI, Seyed Asghar Alizadeh"
+   ]
+  },
+  {
+   "uid": 58693,
+   "name": "CHAPOTIN VILLALBA, Diosvany Samuel",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "PICHON VIDAL, Lazaro"
+   ]
+  },
+  {
+   "uid": 58694,
+   "name": "MARTINEZ RODRIGUEZ, Pedro Humberto",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58695,
+   "name": "YOCUPICIO YOCUPICIO, Jesus Rafael",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58696,
+   "name": "HUEZO HERNANDEZ, Franklin Ernesto",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58697,
+   "name": "CASTILLO MALDONADO, Lorenzo",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58698,
+   "name": "MENDOZA URIARTE, Jorge Luis",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58700,
+   "name": "MENDOZA URIARTE, Francisco Javier",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58701,
+   "name": "FELIX RIVERA, Ilia Elizabeth",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58702,
+   "name": "VERA AYALA, Jeronimo Javier",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58703,
+   "name": "VERA AYALA, Jorge Mario",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58704,
+   "name": "TORRES TORRES, Carlos Alberto",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58705,
+   "name": "TORRES TORRES, Luis Alfonso",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58706,
+   "name": "MENDIVIL GARCIA, Pedro Ariel",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58707,
+   "name": "MORENO GOMEZ SANTELICES, Marco Antonio",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58708,
+   "name": "VILLELA GOMEZ SANTELICES, Carlos",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58709,
+   "name": "BUENROSTRO MARTIN, Rafael",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58711,
+   "name": "RIVOS SERVICIOS, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58712,
+   "name": "SERVICIOS HOTELEROS GASTELUM, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58713,
+   "name": "GALERIAS CENTRO CAMBIARIO, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "MAGIC CASA DE CAMBIO"
+   ]
+  },
+  {
+   "uid": 58714,
+   "name": "GRUPO GASOLINERO NUEVA ESPERANZA, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58719,
+   "name": "BAJA FIXER GROUP, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58720,
+   "name": "INTELIPROOF EFFICIENT, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58721,
+   "name": "PRIVATE EQUITY BAJA S.A.P.I. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58722,
+   "name": "FESTIVALES ARTISTAS MOBILIARIO ASESORIA, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "PROMOCIONES CHF DE BAJA CALIFORNIA, S.A. DE C.V."
+   ]
+  },
+  {
+   "uid": 58723,
+   "name": "PRIVATE EQUITY BURSATIL, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58724,
+   "name": "CONCIERTOS Y ESPECTACULOS INHOUSE S.A.P.I. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58725,
+   "name": "WERMAK PUBLIRED, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58726,
+   "name": "HOLISTIC WELLWAVES S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58727,
+   "name": "PROYECTO ALERTA VERDE, S.A.P.I. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58729,
+   "name": "VIDEOVIGILANCIA COLABORATIVA, S.A.P.I. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58730,
+   "name": "LTHINGS MEXICO, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58731,
+   "name": "XOLO GAS DE BAJA CALIFORNIA, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58732,
+   "name": "CODESUAM, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58733,
+   "name": "GRUPO BAJA FIRME, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58734,
+   "name": "VIDA ORGANICA TIJUANA, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58736,
+   "name": "EDIFIKA DESARROLLOS BAJA, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58737,
+   "name": "THE WOODS BAR, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58738,
+   "name": "RAES RESTAURANTE S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58739,
+   "name": "DISTRIBUIDORA Y COMERCIALIZADORA ATAF",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "DISTRIBUIDORA Y COMERCIALIZADORA ATAF S.A.S."
+   ]
+  },
+  {
+   "uid": 58740,
+   "name": "PUBLICIDAD E IMAGEN INTEGRAL ENLA-C, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
   }
  ]
 }
