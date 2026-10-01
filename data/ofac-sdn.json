@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19444 designated entries and 20220 alternate identities (39664 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-29 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19452 designated entries and 20220 alternate identities (39672 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-29 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
  "published": "2026-09-29",
- "retrieved": "2026-09-30",
+ "retrieved": "2026-10-01",
  "counts": {
-  "entries": 19444,
+  "entries": 19452,
   "alternateNames": 20220,
-  "totalNames": 39664
+  "totalNames": 39672
  },
  "typeCounts": {
-  "entity": 10005,
-  "individual": 7557,
-  "vessel": 1540,
+  "entity": 10006,
+  "individual": 7565,
+  "vessel": 1539,
   "aircraft": 342
  },
  "topPrograms": [
@@ -25,7 +25,7 @@
   ],
   [
    "SDGT",
-   3331
+   3342
   ],
   [
    "IFSR",
@@ -33,7 +33,7 @@
   ],
   [
    "SDNTK",
-   1364
+   1363
   ],
   [
    "NPWMD",
@@ -65,7 +65,7 @@
   ],
   [
    "TCO",
-   418
+   429
   ],
   [
    "IRGC",
@@ -13742,17 +13742,6 @@
     "SDNTK"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 10640,
-   "name": "PATRACA, S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNTK"
-   ],
-   "alternateNames": [
-    "BOUTIQUE PATRACA"
-   ]
   },
   {
    "uid": 10641,
@@ -72986,17 +72975,6 @@
     "LIBYA3"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 28301,
-   "name": "MARAYA",
-   "type": "vessel",
-   "programs": [
-    "LIBYA3"
-   ],
-   "alternateNames": [
-    "MED PATRON"
-   ]
   },
   {
    "uid": 28303,
@@ -149254,17 +149232,6 @@
    ]
   },
   {
-   "uid": 48385,
-   "name": "PROTOPOVICH, Tatyana",
-   "type": "individual",
-   "programs": [
-    "BELARUS-EO14038"
-   ],
-   "alternateNames": [
-    "PROTOPOVICH, Tayuana"
-   ]
-  },
-  {
    "uid": 48386,
    "name": "YAGMUR, Nora",
    "type": "individual",
@@ -197438,6 +197405,19 @@
    "alternateNames": []
   },
   {
+   "uid": 56980,
+   "name": "RIVAS NUNEZ, Juan Gabriel",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": [
+    "APONTE RODRIGUEZ, Wilson Starling",
+    "APONTE RODRIGUEZ, Wilson Stalyn"
+   ]
+  },
+  {
    "uid": 56981,
    "name": "NOBITEX",
    "type": "entity",
@@ -204432,6 +204412,16 @@
    ]
   },
   {
+   "uid": 58161,
+   "name": "CANELON AGUIRRE, Anibal Alexander",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58173,
    "name": "DADENEGAR STARTUP STUDIO",
    "type": "entity",
@@ -205032,6 +205022,46 @@
    "alternateNames": []
   },
   {
+   "uid": 58254,
+   "name": "MARTINEZ ARMENTA, Carlos Javier",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58255,
+   "name": "MEJIA CASTILLO, Alejandro",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58256,
+   "name": "GALEANO BAZURTO, Jose Dario",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58257,
+   "name": "CARDENAS ARZOLA, Eric Gabriel",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58258,
    "name": "CRYPTO HOME DMCC",
    "type": "entity",
@@ -205048,6 +205078,58 @@
     "SDGT"
    ],
    "alternateNames": []
+  },
+  {
+   "uid": 58260,
+   "name": "MARTINEZ PIRONA, Oscar Leonardo",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58261,
+   "name": "GALEANO BASURTO, Aslhy Javier",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58262,
+   "name": "HERNANDEZ GUERRERO, Anthony Wuiliam",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58263,
+   "name": "SOLUCIONES INTEGRALES TOLUCA, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58264,
+   "name": "ENIGMA COMMUNITY, S. DE R.L. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "TCO"
+   ],
+   "alternateNames": [
+    "ENIGMA COMMUNITY, SOCIEDAD DE RESPONSABILIDAD LIMITADA DE CAPITAL VARIABLE"
+   ]
   },
   {
    "uid": 58265,
