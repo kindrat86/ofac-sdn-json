@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19452 designated entries and 20220 alternate identities (39672 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-29 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19483 designated entries and 20233 alternate identities (39716 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-09-30 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-09-29",
- "retrieved": "2026-10-01",
+ "published": "2026-09-30",
+ "retrieved": "2026-10-02",
  "counts": {
-  "entries": 19452,
-  "alternateNames": 20220,
-  "totalNames": 39672
+  "entries": 19483,
+  "alternateNames": 20233,
+  "totalNames": 39716
  },
  "typeCounts": {
-  "entity": 10006,
-  "individual": 7565,
+  "entity": 10035,
+  "individual": 7567,
   "vessel": 1539,
   "aircraft": 342
  },
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   980
+   1002
   ],
   [
    "ILLICIT-DRUGS-EO14059",
@@ -65,7 +65,7 @@
   ],
   [
    "TCO",
-   429
+   430
   ],
   [
    "IRGC",
@@ -201680,14 +201680,12 @@
   },
   {
    "uid": 57761,
-   "name": "EVER SHINING LIMITED",
+   "name": "EVER SHINING LTD",
    "type": "entity",
    "programs": [
     "IRAN-EO13846"
    ],
-   "alternateNames": [
-    "EVER SHINING LTD"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 57763,
@@ -207502,6 +207500,15 @@
    "alternateNames": []
   },
   {
+   "uid": 58626,
+   "name": "A7 NETWORK",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58630,
    "name": "ZAKER HOSSEIN, Mohammad Mahdi",
    "type": "individual",
@@ -208011,6 +208018,301 @@
    "programs": [
     "SDGT",
     "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58761,
+   "name": "IRAN KHODRO COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "IRAN KHODRO INDUSTRIAL GROUP COMPANY",
+    "IRAN KHODRO INDUSTRIAL GROUP COMPANY PUBLIC JOINT STOCK"
+   ]
+  },
+  {
+   "uid": 58762,
+   "name": "PARS KHODRO COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "PARS KHODRO PUBLIC JOINT STOCK COMPANY"
+   ]
+  },
+  {
+   "uid": 58763,
+   "name": "ZAMYAD COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ZAMYAD PUBLIC JOINT STOCK COMPANY"
+   ]
+  },
+  {
+   "uid": 58764,
+   "name": "IRAN KHODRO DIESEL COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58765,
+   "name": "ISLAMIC REPUBLIC OF IRAN RAILWAY COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "THE RAILWAYS OF ISLAMIC REPUBLIC OF IRAN COMPANY"
+   ]
+  },
+  {
+   "uid": 58766,
+   "name": "RAJA PASSENGER TRAINS COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "RAJA RAIL TRANSPORTATION COMPANY"
+   ]
+  },
+  {
+   "uid": 58767,
+   "name": "SHERKAT-E RAH AHAN-E KHAMLE-O-NAGHLE",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58768,
+   "name": "SAIPA IRANIAN AUTOMOBILE MANUFACTURING COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "SAIPA HOLDING COMPANY",
+    "IRANIAN AUTOMOBILE MANUFACTURING COMPANY SAIPA PUBLIC JOINT STOCK"
+   ]
+  },
+  {
+   "uid": 58769,
+   "name": "KESHVARDOUST, Ramin",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58770,
+   "name": "SHANGHAI RUIMI IMPORT AND EXPORT TRADE CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58771,
+   "name": "M AND R STEEL CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": [
+    "BEIJING M & R STEEL CO., LTD."
+   ]
+  },
+  {
+   "uid": 58772,
+   "name": "SILVER LINE METAL TRADING LLC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58773,
+   "name": "FIDAR FOOLAD RADMAN",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58774,
+   "name": "TECH-TRADE INTERNATIONAL IMPEX GMBH",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58775,
+   "name": "HAMEDANI, Mehnoosh Poursaraf",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58776,
+   "name": "TRACO INTERNATIONAL FZE",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13871"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58777,
+   "name": "KGT TRADING LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58778,
+   "name": "DOMINION TRADING GROUP LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58779,
+   "name": "INTEGRATED AUTO PARTS LLC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58780,
+   "name": "HEAVY EQUIPMENT PRODUCTION COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58781,
+   "name": "HEPCO SHANGHAI CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "HESHIPU SHANGHAI MACHINERY TRADING CO., LTD",
+    "SHANGHAI HEPCO LTD."
+   ]
+  },
+  {
+   "uid": 58782,
+   "name": "BONASOL GROUP CO., LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58783,
+   "name": "MEIZI CO., LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58784,
+   "name": "EAST CONCORD DEVELOPMENT LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58785,
+   "name": "PT GOLDEN MOTORCYCLE INTERNATIONAL",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "GOLDEN MOTORCYCLE INTERNATIONAL LTD"
+   ]
+  },
+  {
+   "uid": 58786,
+   "name": "TROY TRADING ARAC PARCALARI SANAYI VE TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58787,
+   "name": "HESSENBERG CO., LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "JEDBURGH CO., LIMITED"
+   ]
+  },
+  {
+   "uid": 58788,
+   "name": "TANEX GLOBAL TRADING HONG KONG LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58789,
+   "name": "NIROO MOTOR SHIRAZ INDUSTRIAL AND MANUFACTURING COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "NIROO MOTOR COMPANY"
+   ]
+  },
+  {
+   "uid": 58790,
+   "name": "NIROO MOTOR DAMAVAND COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
    ],
    "alternateNames": []
   }
