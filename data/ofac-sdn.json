@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19488 designated entries and 20236 alternate identities (39724 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-02 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19363 designated entries and 20179 alternate identities (39542 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-02 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
  "published": "2026-10-02",
- "retrieved": "2026-10-05",
+ "retrieved": "2026-10-06",
  "counts": {
-  "entries": 19488,
-  "alternateNames": 20236,
-  "totalNames": 39724
+  "entries": 19363,
+  "alternateNames": 20179,
+  "totalNames": 39542
  },
  "typeCounts": {
-  "entity": 10037,
-  "individual": 7570,
+  "entity": 9990,
+  "individual": 7492,
   "vessel": 1539,
   "aircraft": 342
  },
@@ -5623,13 +5623,13 @@
   },
   {
    "uid": 7821,
-   "name": "PALMA SALAZAR, Hector Luis",
+   "name": "PALMA SALAZAR, Jesus Hector",
    "type": "individual",
    "programs": [
     "SDNTK"
    ],
    "alternateNames": [
-    "PALMA SALAZAR, Jesus Hector"
+    "PALMA SALAZAR, Hector Luis"
    ]
   },
   {
@@ -7945,14 +7945,12 @@
   },
   {
    "uid": 8234,
-   "name": "ARELLANO FELIX, Eduardo Ramon",
+   "name": "ARELLANO FELIX, Eduardo",
    "type": "individual",
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "ARELLANO FELIX, Javier Eduardo"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 8235,
@@ -7961,12 +7959,7 @@
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "ARELLANO FELIX, Javier",
-    "BELTRAN MEZA, Ramon",
-    "DIAZ MEDINA, Javier",
-    "LARA ALVAREZ, Jose Luis"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 8236,
@@ -8331,42 +8324,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8307,
-   "name": "ABBAS, Abdul Hussein",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8311,
-   "name": "AHMAD, Rasem",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8312,
-   "name": "AHMAD, Wallid Issa",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8313,
-   "name": "AL-AMIRI, Adnan Talib Hassim",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8314,
    "name": "AL-ARABI TRADING COMPANY LIMITED",
    "type": "entity",
@@ -8387,75 +8344,8 @@
    ]
   },
   {
-   "uid": 8316,
-   "name": "AL-AZAWI, Dafir",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8317,
-   "name": "AL-BAZZAZ, Hikmet Abdallah",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "AL-BAZAZ, Hikmet Abdullah"
-   ]
-  },
-  {
-   "uid": 8318,
-   "name": "AL-DAJANI, Leila N.S.",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8319,
-   "name": "AL-DAJANI, Nadim S.",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8320,
-   "name": "AL-DAJANI, Sa'ad",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8323,
-   "name": "AL-HAMMADI, Hamid Yusif",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "HAMADI, Hamed Yussef"
-   ]
-  },
-  {
    "uid": 8326,
    "name": "AL-HUWAYSH, Isam Rashid",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8327,
-   "name": "AL-JABBURI, Sadi Tuma Abbas",
    "type": "individual",
    "programs": [
     "IRAQ2"
@@ -8474,17 +8364,6 @@
    ]
   },
   {
-   "uid": 8330,
-   "name": "AL-MAJID, Hussein Kamel Hassan",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "AL-MAJID, Husayn Kamil Hasan"
-   ]
-  },
-  {
    "uid": 8331,
    "name": "AL-MALIKI, Shabib Lazem",
    "type": "individual",
@@ -8493,17 +8372,6 @@
    ],
    "alternateNames": [
     "AL-MALEKI, Shebib Lazim"
-   ]
-  },
-  {
-   "uid": 8332,
-   "name": "AL-QASIR, Nazar Jumah Ali",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "AL-QASSIR, Nizar Jomaa Ali"
    ]
   },
   {
@@ -8518,15 +8386,6 @@
    ]
   },
   {
-   "uid": 8334,
-   "name": "AL-RUBA, Dr. Khadim",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8335,
    "name": "AL-SAHHAF, Muhammad Said Kazim",
    "type": "individual",
@@ -8538,190 +8397,8 @@
    ]
   },
   {
-   "uid": 8336,
-   "name": "AL-ZIBARI, Arshad Muhammad Ahmad Muhammad",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8337,
-   "name": "ALAWI, Abdel-Salam Abdel-Rahman",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "ALLAWI, Salam"
-   ]
-  },
-  {
-   "uid": 8339,
-   "name": "ALWAN, Allaidin Hussain",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "ALWAN, Alla Idin Hussain"
-   ]
-  },
-  {
-   "uid": 8340,
-   "name": "AMD CO. LTD AGENCY",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8342,
-   "name": "ARAB PROJECTS COMPANY S.A. LTD.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8348,
-   "name": "ATIA, Hachim K.",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8357,
-   "name": "DAGHIR, Ali Ashour",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8359,
-   "name": "DURAND PROPERTIES LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 8365,
    "name": "FARAJ, Samal Majid",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8366,
-   "name": "FARTRADE HOLDINGS S.A.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8367,
-   "name": "FATTAH, Jum'a Abdul",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8369,
-   "name": "HABIB, Mohammed Turki",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8370,
-   "name": "HELFORD DIRECTORS LIMITED",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8378,
-   "name": "JASIM, Latif Nusayyif",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "JASSEM, Latif Nassif"
-   ]
-  },
-  {
-   "uid": 8379,
-   "name": "JON, Hana Paul",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8380,
-   "name": "JUME'AN, George",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8382,
-   "name": "KARAGHULLY, Labeed A.",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8384,
-   "name": "KHALIL, Dr. Ahmad Murtada Ahmad",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "KHALIL, Ahmad Murtadha Ahmad"
-   ]
-  },
-  {
-   "uid": 8385,
-   "name": "MALIK, Assim Mohammed Rafiq Abdul",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "ABDULMALIK, Abdul Hameed",
-    "RAFIQ, Assem"
-   ]
-  },
-  {
-   "uid": 8388,
-   "name": "MOHAMED, Abdul Kader Ibrahim",
    "type": "individual",
    "programs": [
     "IRAQ2"
@@ -8738,35 +8415,6 @@
    "alternateNames": [
     "MUBARAK, Umid Midhat"
    ]
-  },
-  {
-   "uid": 8390,
-   "name": "NAMAN, Saalim",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "NAMAN, Sam"
-   ]
-  },
-  {
-   "uid": 8392,
-   "name": "OMRAN, Karim Dhaidas",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8399,
-   "name": "RZOOKI, Hanna",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 8401,
@@ -8789,32 +8437,6 @@
    "alternateNames": []
   },
   {
-   "uid": 8406,
-   "name": "TALL, Aktham",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8407,
-   "name": "TARIQ ABU SHANAB EST. FOR TRADE & COMMERCE",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": [
-    "ABU SHANAB METALS ESTABLISHMENT",
-    "AMIN ABU SHANAB & SONS CO.",
-    "SHANAB METALS ESTABLISHMENT",
-    "TARIQ ABU SHANAB EST.",
-    "TARIQ ABU SHANAB METALS ESTABLISHMENT",
-    "TARIQ ABU SHANAB EST. FOR TRADE AND COMMERCE",
-    "AMIN ABU SHANAB AND SONS CO."
-   ]
-  },
-  {
    "uid": 8408,
    "name": "TECHNOLOGY AND DEVELOPMENT GROUP LTD",
    "type": "entity",
@@ -8824,33 +8446,6 @@
    "alternateNames": [
     "T.D.G."
    ]
-  },
-  {
-   "uid": 8409,
-   "name": "TIGRIS TRADING, INC.",
-   "type": "entity",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8413,
-   "name": "ZAHRAN, Yousuf",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8414,
-   "name": "ZAINAL, Akram",
-   "type": "individual",
-   "programs": [
-    "IRAQ2"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 8418,
@@ -8979,143 +8574,6 @@
    "type": "individual",
    "programs": [
     "SDGT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8600,
-   "name": "HERNANDEZ ZEA, Luis Antonio",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8731,
-   "name": "ACCIRENT S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8732,
-   "name": "AEROCOMERCIAL ALAS DE COLOMBIA LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8733,
-   "name": "AEROVIAS ATLANTICO LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "AEROATLANTICO LTDA."
-   ]
-  },
-  {
-   "uid": 8734,
-   "name": "ASOCIACION TURISTICA INTERNACIONAL S.C.S.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "LUIS A. HERNANDEZ Z Y CIA. S.C.S."
-   ]
-  },
-  {
-   "uid": 8735,
-   "name": "CIA. CONSTRUCTORA Y COMERCIALIZADORA DEL SUR LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "COSUR LTDA.",
-    "HOTEL PALACE"
-   ]
-  },
-  {
-   "uid": 8737,
-   "name": "DESARROLLOS AGROINDUSTRIALES S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8738,
-   "name": "GREEN ISLAND S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8740,
-   "name": "INTERCONTINENTAL DE FINANCIACION AEREA  S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "INTERFIAR S.A."
-   ]
-  },
-  {
-   "uid": 8741,
-   "name": "INVERSIONES Y COMERCIALIZADORA INCOM LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "CONSTRUCTORA HENA LTDA."
-   ]
-  },
-  {
-   "uid": 8743,
-   "name": "LARGO LEASING LTD.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8744,
-   "name": "TRANS PACIFIC WORLD LEASING LIMITED",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8745,
-   "name": "VELEZ RENGIFO, Piedad",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 8746,
-   "name": "ARCE JARAMILLO, Melba Rosa",
-   "type": "individual",
-   "programs": [
-    "SDNT"
    ],
    "alternateNames": []
   },
@@ -9913,8 +9371,7 @@
     "SDNTK"
    ],
    "alternateNames": [
-    "LOPEZ POBLANO DE ARRIOLA, Beatriz Raquel",
-    "LOPEZ PORTILLO, Beatriz Raquel"
+    "LOPEZ POBLANO DE ARRIOLA, Beatriz Raquel"
    ]
   },
   {
@@ -10585,15 +10042,6 @@
    "type": "entity",
    "programs": [
     "SDNTK"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 9564,
-   "name": "QUINTERO SANCLEMENTE, Ramon Alberto",
-   "type": "individual",
-   "programs": [
-    "SDNT"
    ],
    "alternateNames": []
   },
@@ -11550,18 +10998,6 @@
    "alternateNames": []
   },
   {
-   "uid": 10000,
-   "name": "CANO CORREA, Jhon Eidelber",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "CANO, Jhonny",
-    "CARDONA RIBILLAS, Alejandro"
-   ]
-  },
-  {
    "uid": 10001,
    "name": "INVERSIONES MACARNIC PATINO Y CIA S.C.S.",
    "type": "entity",
@@ -11601,15 +11037,6 @@
     "MOTEL CAMPO AMOR",
     "HOTEL SIN PECADOS"
    ]
-  },
-  {
-   "uid": 10005,
-   "name": "CANO AGUDELO S EN C",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 10007,
@@ -12240,10 +11667,7 @@
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "FELIX TORRES, Javier",
-    "TAMAYO TORRES, Horacio"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 10352,
@@ -12843,17 +12267,6 @@
    ]
   },
   {
-   "uid": 10468,
-   "name": "ZULUAGA LINDO, Francisco Javier",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "GALINDO, Gabriel"
-   ]
-  },
-  {
    "uid": 10469,
    "name": "VANOY MURILLO, Ramiro",
    "type": "individual",
@@ -12863,15 +12276,6 @@
    "alternateNames": [
     "VANOY RAMIREZ, Ramiro"
    ]
-  },
-  {
-   "uid": 10473,
-   "name": "SOCIEDAD SUPERDEPORTES LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
   },
   {
    "uid": 10475,
@@ -16803,254 +16207,6 @@
    ]
   },
   {
-   "uid": 11463,
-   "name": "LOPEZ OSPINA, Carlos Antonio",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11464,
-   "name": "JACOME DEL VALLE, Omar Alfredo",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11466,
-   "name": "VASQUEZ VALENCIA, Natalia Andrea",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11467,
-   "name": "SUAZA BARCO, Maria del Carmen",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "SUAZA BARCO, Carmen"
-   ]
-  },
-  {
-   "uid": 11468,
-   "name": "SANCHEZ RIVERA, Doris Patricia",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11469,
-   "name": "PEREZ MONTERO, Maria Marcela del Pilar",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11470,
-   "name": "SANCHEZ MARTELL, Julio Cesar Jassan Estuardo",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "SANCHEZ MARTELL, Julio Cesar"
-   ]
-  },
-  {
-   "uid": 11471,
-   "name": "MUNERA VELASQUEZ, Martha Marina",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11472,
-   "name": "MEJIA ARTEAGA, Nora",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11473,
-   "name": "HERNANDEZ MEJIA, Jorge Alberto",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11474,
-   "name": "DURAN PORRAS, Gloria Amparo",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11476,
-   "name": "BERMUDEZ SUAZA, Pedro Antonio",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "AGUILAR DEL BOSQUE, Mauricio",
-    "AGUILAR VELEZ, Luis Antonio",
-    "VEGA LUJAN, Diego Rodrigo"
-   ]
-  },
-  {
-   "uid": 11477,
-   "name": "CONSULTORIA EN CAMBIOS FALCON S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11478,
-   "name": "HIERROS DE JERUSALEM S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11479,
-   "name": "TAXI AEREO ANTIOQUENO S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "TAN S.A."
-   ]
-  },
-  {
-   "uid": 11480,
-   "name": "LLANOTOUR LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "HOSTERIA LLANOGRANDE"
-   ]
-  },
-  {
-   "uid": 11481,
-   "name": "AGROGANADERA LOS SANTOS S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11482,
-   "name": "AGROESPINAL S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11483,
-   "name": "AERONAUTICA CONDOR S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "AEROCONDOR S.A. DE C.V."
-   ]
-  },
-  {
-   "uid": 11484,
-   "name": "AERONAUTICA CONDOR DE PANAMA, S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11485,
-   "name": "GRUPO FALCON DE PANAMA, S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11486,
-   "name": "GRUPO FALCON S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11487,
-   "name": "GRUPO GUADALEST S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11488,
-   "name": "FRANZUL S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11489,
-   "name": "CONSTRUCTORA GUADALEST S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11490,
-   "name": "ASES DE COMPETENCIA Y CIA. S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 11492,
    "name": "AL-SHAMMARI, Sa'ad Uwayyid 'Ubayd Mu'jil",
    "type": "individual",
@@ -17225,181 +16381,6 @@
    ],
    "alternateNames": [
     "HONG KONG ELECTRONICS KISH CO"
-   ]
-  },
-  {
-   "uid": 11536,
-   "name": "KADDOURA, Ali Ahmad",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11537,
-   "name": "HENAO JARAMILLO, Mario Alberto",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11538,
-   "name": "ABDUL RAHIM, Ali Mohamad",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11539,
-   "name": "ALVARADO, Imad Abdul Rahim",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11540,
-   "name": "DIB EL MALT, Abdul Naser",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11541,
-   "name": "MADRID FRANCO, Cecilia",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11542,
-   "name": "CANAS PULIDO, Ramon Alberto",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11543,
-   "name": "GONZALEZ HOYOS, Carlos Enrique",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11545,
-   "name": "VARELA BUSTOS, Fernando",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11546,
-   "name": "HARB, Chekri Mahmoud",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11550,
-   "name": "ACOSTA SERNA, Robinson Duvan",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11551,
-   "name": "ACOSTA SERNA, Oscar Alonso",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11552,
-   "name": "RINCON ORDONEZ, Jorge Enrique",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11554,
-   "name": "FLOREZ UPEGUI, Francisco Antonio",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11555,
-   "name": "VARIEDADES HARB SPORT",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11556,
-   "name": "ALMACEN FUTURO NO. 1",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11557,
-   "name": "COMERCIAL JINAN S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11558,
-   "name": "CANALES VENECIA LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "CANALVE LTDA."
-   ]
-  },
-  {
-   "uid": 11560,
-   "name": "FLOREZ HERMANOS LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "HOSTERIA LAS DOS PALMAS"
    ]
   },
   {
@@ -18265,105 +17246,6 @@
    ]
   },
   {
-   "uid": 11752,
-   "name": "TASCON ROJAS, Servio Tulio",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11755,
-   "name": "SAAVEDRA ARCE, Rodrigo Eugenio",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11760,
-   "name": "GUTIERREZ AGUIRRE, Duffay",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11767,
-   "name": "CIFUENTES VARGAS, Yanet",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11768,
-   "name": "CIFUENTES VARGAS, Orlando",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11771,
-   "name": "UNIVISA S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11772,
-   "name": "SERVIAGRICOLA CIFUENTES E.U.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11773,
-   "name": "SAAVEDRA Y CIA. S. EN C.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11774,
-   "name": "RESTAURANTE BAR PUNTA DEL ESTE",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11783,
-   "name": "BOSQUE DE SANTA TERESITA LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 11784,
-   "name": "ALIMENTOS CARNICOS DE TRADICION ESPANOLA LTDA.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 11786,
    "name": "QASEMI, Rostam",
    "type": "individual",
@@ -19156,9 +18038,7 @@
    "programs": [
     "SDNTK"
    ],
-   "alternateNames": [
-    "SANCHEZ CASTILLO, Efrain"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 11917,
@@ -19341,8 +18221,7 @@
     "SDNTK"
    ],
    "alternateNames": [
-    "HERNANDEZ LECHUGA, Raul Lucio",
-    "HERNANDEZ LECHUGA, Luciano"
+    "HERNANDEZ LECHUGA, Raul Lucio"
    ]
   },
   {
@@ -20098,53 +18977,6 @@
     "SDNTK"
    ],
    "alternateNames": []
-  },
-  {
-   "uid": 12087,
-   "name": "RAMIREZ DUQUE, Carlos Manuel",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 12090,
-   "name": "CASTRO JARAMILLO, Monica Maria",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 12091,
-   "name": "RODRIGUEZ FERNANDEZ, Andre",
-   "type": "individual",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 12096,
-   "name": "MASA FACIL, S.A. DE C.V.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 12101,
-   "name": "COMERCIALIZADORA DE GANADO Y RENTAS DE CAPITAL S.A.",
-   "type": "entity",
-   "programs": [
-    "SDNT"
-   ],
-   "alternateNames": [
-    "GANARECA S.A."
-   ]
   },
   {
    "uid": 12109,
@@ -26463,12 +25295,7 @@
    "programs": [
     "IRAN"
    ],
-   "alternateNames": [
-    "NOAH",
-    "ELITE",
-    "VOYAGER",
-    "NAPOLI"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 15075,
@@ -49574,15 +48401,6 @@
    "alternateNames": []
   },
   {
-   "uid": 22751,
-   "name": "LUCENA RAMIREZ, Tibisay",
-   "type": "individual",
-   "programs": [
-    "VENEZUELA"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 22752,
    "name": "SUAREZ CHOURIO, Jesus Rafael",
    "type": "individual",
@@ -49742,15 +48560,6 @@
   {
    "uid": 22809,
    "name": "MELENDEZ RIVAS, Carmen Teresa",
-   "type": "individual",
-   "programs": [
-    "VENEZUELA"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 22810,
-   "name": "VIVAS VELASCO, Ramon Dario",
    "type": "individual",
    "programs": [
     "VENEZUELA"
@@ -65695,17 +64504,6 @@
    ],
    "alternateNames": [
     "PRIETO, Omar"
-   ]
-  },
-  {
-   "uid": 26419,
-   "name": "GARCIA CARNEIRO, Jorge Luis",
-   "type": "individual",
-   "programs": [
-    "VENEZUELA"
-   ],
-   "alternateNames": [
-    "GARCIA CARNEIRO, Jorge"
    ]
   },
   {
@@ -84916,19 +83714,6 @@
     "ALEXANDROV, Aleksey Alexandrovich",
     "FROLOV, Alexey",
     "FROLOV, Aleksey Andreevich"
-   ]
-  },
-  {
-   "uid": 32747,
-   "name": "AURAMENKA, Aliaksei Mikalaevich",
-   "type": "individual",
-   "programs": [
-    "BELARUS-EO14038"
-   ],
-   "alternateNames": [
-    "AVRAMENKO, Alexey Nikolaevich",
-    "AVRAMENKO, Aleksey",
-    "AVRAMENKO, Aleksey Nikolaevich"
    ]
   },
   {
@@ -151423,14 +150208,12 @@
   },
   {
    "uid": 48695,
-   "name": "LA PEARL",
+   "name": "JAMES II",
    "type": "vessel",
    "programs": [
     "SDGT"
    ],
-   "alternateNames": [
-    "ELITE"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 48696,
@@ -163893,7 +162676,7 @@
   },
   {
    "uid": 50454,
-   "name": "VICTORIA",
+   "name": "DA LI",
    "type": "vessel",
    "programs": [
     "SDGT"
