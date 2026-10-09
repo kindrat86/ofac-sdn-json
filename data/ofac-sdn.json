@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19363 designated entries and 20179 alternate identities (39542 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-02 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19416 designated entries and 20182 alternate identities (39598 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-07 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-02",
- "retrieved": "2026-10-08",
+ "published": "2026-10-07",
+ "retrieved": "2026-10-09",
  "counts": {
-  "entries": 19363,
-  "alternateNames": 20179,
-  "totalNames": 39542
+  "entries": 19416,
+  "alternateNames": 20182,
+  "totalNames": 39598
  },
  "typeCounts": {
-  "entity": 9990,
-  "individual": 7492,
-  "vessel": 1539,
+  "entity": 10017,
+  "individual": 7498,
+  "vessel": 1559,
   "aircraft": 342
  },
  "topPrograms": [
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   1002
+   1034
   ],
   [
    "ILLICIT-DRUGS-EO14059",
@@ -61,7 +61,7 @@
   ],
   [
    "IRAN-EO13846",
-   488
+   509
   ],
   [
    "TCO",
@@ -186932,15 +186932,6 @@
    ]
   },
   {
-   "uid": 54931,
-   "name": "HAKUNA MATATA",
-   "type": "vessel",
-   "programs": [
-    "IRAN-EO13902"
-   ],
-   "alternateNames": []
-  },
-  {
    "uid": 54932,
    "name": "LIDIA",
    "type": "vessel",
@@ -186952,15 +186943,6 @@
   {
    "uid": 54933,
    "name": "MOANA",
-   "type": "vessel",
-   "programs": [
-    "IRAN-EO13902"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 54934,
-   "name": "PINOCCHIO",
    "type": "vessel",
    "programs": [
     "IRAN-EO13902"
@@ -205517,6 +205499,24 @@
    "alternateNames": []
   },
   {
+   "uid": 58460,
+   "name": "PARITOSH SHIPPING INC.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58461,
+   "name": "ORNELLA SHIPPING INC.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58462,
    "name": "MASAR BADIL",
    "type": "entity",
@@ -205544,6 +205544,132 @@
    "type": "individual",
    "programs": [
     "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58466,
+   "name": "HECHUANG INTERNATIONAL GROUP LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58467,
+   "name": "JLS DRAGON COMPANY LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58468,
+   "name": "KANHA SHIPPING INC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58469,
+   "name": "SHUNHANG SHIP MANAGEMENT LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58470,
+   "name": "SAINT ABUNDANT INTERNATIONAL CO LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58471,
+   "name": "TERRA NAV SHIPPING LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58473,
+   "name": "G SPRING",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58474,
+   "name": "PARITOSH",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58475,
+   "name": "KANHA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58476,
+   "name": "KING CHAIN",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58477,
+   "name": "POLAR",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58478,
+   "name": "BITU",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58479,
+   "name": "STARWAY",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58480,
+   "name": "GAS LUCKY",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
    ],
    "alternateNames": []
   },
@@ -206651,6 +206777,42 @@
    "alternateNames": []
   },
   {
+   "uid": 58715,
+   "name": "YASHAR",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58716,
+   "name": "HORIZON SHIP MANAGEMENT FZE",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58717,
+   "name": "ARABIANPRO MATERIALS FZCO",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58718,
+   "name": "SSPL SOLUTIONS PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58719,
    "name": "BAJA FIXER GROUP, S.A. DE C.V.",
    "type": "entity",
@@ -206743,6 +206905,17 @@
    "alternateNames": []
   },
   {
+   "uid": 58728,
+   "name": "VORA, Dhwani Nisarg",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": [
+    "BHUTA, Dhwani Dhiren"
+   ]
+  },
+  {
    "uid": 58729,
    "name": "VIDEOVIGILANCIA COLABORATIVA, S.A.P.I. DE C.V.",
    "type": "entity",
@@ -206803,6 +206976,15 @@
    "alternateNames": []
   },
   {
+   "uid": 58735,
+   "name": "VORA, Nisarg Samir",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58736,
    "name": "EDIFIKA DESARROLLOS BAJA, S. DE R.L. DE C.V.",
    "type": "entity",
@@ -206851,6 +207033,143 @@
    "programs": [
     "SDGT",
     "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58741,
+   "name": "TUTER PLASTIK SANAYI VE TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": [
+    "TUTER PLASTIC INDUSTRY AND TRADE LTD. CO"
+   ]
+  },
+  {
+   "uid": 58742,
+   "name": "BGZ DIS TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58743,
+   "name": "PADIDEH PLASTIC POSHTIBAN COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58744,
+   "name": "NOORZAD PETROKIMYA URUNLERI NAKLIYE SANAYI VE TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58745,
+   "name": "NOORZAD, Said Ahmad",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58746,
+   "name": "ONE PLUS INTERNATIONAL CO LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58748,
+   "name": "YONG TAI",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58749,
+   "name": "HESSONITE SHIP MANAGEMENT LLC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58750,
+   "name": "ARGO MARIS",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58751,
+   "name": "BLACK MAYA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58752,
+   "name": "ATHE NOVA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58754,
+   "name": "SAMUDRA MARINE SERVICES PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58755,
+   "name": "KOCHIKAR, Ketan Manohar",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58758,
+   "name": "SAHU, Bhupendrasingh Dhalsingh",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58759,
+   "name": "CHUNDAKATTIL, Harishyam Hariharan",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13846"
    ],
    "alternateNames": []
   },
@@ -207144,6 +207463,170 @@
    "uid": 58790,
    "name": "NIROO MOTOR DAMAVAND COMPANY",
    "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58812,
+   "name": "TINA 5",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58813,
+   "name": "NOSTALGIA CO., LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58814,
+   "name": "GRAVION MARITIME CO.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58815,
+   "name": "SOGL",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58816,
+   "name": "BETTA SHIPPING INC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58817,
+   "name": "MAKARUA SHIPPING LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58818,
+   "name": "GODDESS SHIPPING CORP.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58819,
+   "name": "STANDWILL SHIPPING LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58821,
+   "name": "MACKEREL",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58822,
+   "name": "GAS MARAKUA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58823,
+   "name": "ZIXUAN",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58824,
+   "name": "AVA 6",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58827,
+   "name": "SCIENCE RU TRADING CO LTD",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58829,
+   "name": "NORTHPORT NAVIGATION INC.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58830,
+   "name": "BRICH SHIPPING COMPANY LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "YONG SING SHIPPING COMPANY LIMITED"
+   ]
+  },
+  {
+   "uid": 58831,
+   "name": "NOBLE SEA",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58832,
+   "name": "SHENZHEN",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58834,
+   "name": "EXFLAME",
+   "type": "vessel",
    "programs": [
     "IRAN-EO13902"
    ],
