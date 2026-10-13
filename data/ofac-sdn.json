@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19416 designated entries and 20182 alternate identities (39598 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-08 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19431 designated entries and 20188 alternate identities (39619 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-09 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-08",
- "retrieved": "2026-10-12",
+ "published": "2026-10-09",
+ "retrieved": "2026-10-13",
  "counts": {
-  "entries": 19416,
-  "alternateNames": 20182,
-  "totalNames": 39598
+  "entries": 19431,
+  "alternateNames": 20188,
+  "totalNames": 39619
  },
  "typeCounts": {
-  "entity": 10018,
-  "individual": 7497,
+  "entity": 10029,
+  "individual": 7501,
   "vessel": 1559,
   "aircraft": 342
  },
@@ -25,7 +25,7 @@
   ],
   [
    "SDGT",
-   3347
+   3360
   ],
   [
    "IFSR",
@@ -45,7 +45,7 @@
   ],
   [
    "ILLICIT-DRUGS-EO14059",
-   772
+   787
   ],
   [
    "GLOMAG",
@@ -205251,6 +205251,164 @@
     "ZULQADER, Mohammad Baqer",
     "ZOLGHADR, Mohammad Bagher"
    ]
+  },
+  {
+   "uid": 58416,
+   "name": "TAMEX LOGISTICS",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "TAMEX LEASING"
+   ]
+  },
+  {
+   "uid": 58417,
+   "name": "INZUNZA PARTIDA, Francisco Javier",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "AMADOR INZUNZA, Francisco"
+   ]
+  },
+  {
+   "uid": 58418,
+   "name": "DISTRIBUIDORA DE GAS ECONOMICO, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58419,
+   "name": "GARZA GARCIA, Gamaliel",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58420,
+   "name": "GARZA ELIAS, Gamaliel",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58421,
+   "name": "CONSTRUCCIONES Y EDIFICACIONES GARZA ELIAS, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "CEGESA S.A. DE C.V.",
+    "CEGESA"
+   ]
+  },
+  {
+   "uid": 58422,
+   "name": "CUADRA SAN DIBANH",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58423,
+   "name": "CLUB LA MOLIENDA",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "LA MOLIENDA RACE TRACK",
+    "RESTAURANT BAR LA MOLIENDA"
+   ]
+  },
+  {
+   "uid": 58424,
+   "name": "GUAJARDO ALVAREZ, Pablo Cesar",
+   "type": "individual",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58425,
+   "name": "CONSTRUACEROS DEL FUERTE, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58426,
+   "name": "GAS ENERGIA CONFIABLE, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58427,
+   "name": "INOVA NLD DESARROLLOS INMOBILARIOS, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58428,
+   "name": "PROPANE TRADING GROUP, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58429,
+   "name": "TRANSPORTADORA DE GAS DE NUEVO LAREDO, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58430,
+   "name": "CONCRETOS Y PRODUCTOS ASFALTICOS DEL NORTE, S.A. DE C.V.",
+   "type": "entity",
+   "programs": [
+    "SDGT",
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
   },
   {
    "uid": 58431,
