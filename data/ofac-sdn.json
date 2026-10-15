@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19431 designated entries and 20188 alternate identities (39619 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-09 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19430 designated entries and 20184 alternate identities (39614 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-13 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-09",
- "retrieved": "2026-10-14",
+ "published": "2026-10-13",
+ "retrieved": "2026-10-15",
  "counts": {
-  "entries": 19431,
-  "alternateNames": 20188,
-  "totalNames": 39619
+  "entries": 19430,
+  "alternateNames": 20184,
+  "totalNames": 39614
  },
  "typeCounts": {
   "entity": 10029,
-  "individual": 7501,
+  "individual": 7500,
   "vessel": 1559,
   "aircraft": 342
  },
@@ -57391,20 +57391,6 @@
     "AFAQ DUBAI HAWALAH",
     "AFAQ DUBAI COMPANY",
     "AFAK DUBAI EXCHANGE COMPANY"
-   ]
-  },
-  {
-   "uid": 25078,
-   "name": "RODRIGUEZ GOMEZ, Jorge Jesus",
-   "type": "individual",
-   "programs": [
-    "VENEZUELA"
-   ],
-   "alternateNames": [
-    "RODRIGUEZ, Jorge",
-    "RODRIGUEZ GOMEZ, Jorge J",
-    "JORGE J., Rodriguez Gomez",
-    "JORGE JESUS, Rodriguez Gomez"
    ]
   },
   {
