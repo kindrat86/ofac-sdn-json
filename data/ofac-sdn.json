@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19430 designated entries and 20184 alternate identities (39614 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-13 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19457 designated entries and 20196 alternate identities (39653 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-15 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-13",
- "retrieved": "2026-10-15",
+ "published": "2026-10-15",
+ "retrieved": "2026-10-16",
  "counts": {
-  "entries": 19430,
-  "alternateNames": 20184,
-  "totalNames": 39614
+  "entries": 19457,
+  "alternateNames": 20196,
+  "totalNames": 39653
  },
  "typeCounts": {
-  "entity": 10029,
-  "individual": 7500,
+  "entity": 10040,
+  "individual": 7516,
   "vessel": 1559,
   "aircraft": 342
  },
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   1034
+   1060
   ],
   [
    "ILLICIT-DRUGS-EO14059",
@@ -206465,6 +206465,17 @@
    ]
   },
   {
+   "uid": 58571,
+   "name": "INTERNATIONAL DEVELOPMENT BANK FOR INVESTMENT AND FINANCE",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "IRAQ DEVELOPMENT BANK"
+   ]
+  },
+  {
    "uid": 58596,
    "name": "TAJAMMAL, Waseem Pasha",
    "type": "individual",
@@ -207773,6 +207784,259 @@
    "type": "vessel",
    "programs": [
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58930,
+   "name": "MOHAMMADI, Zhila",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "MOHAMADI, Jela",
+    "MOHAMMADI ALIABAD, Zhila"
+   ]
+  },
+  {
+   "uid": 58934,
+   "name": "ELITESPHERE TRADING CO., LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58935,
+   "name": "SEYYED ABBAS HOSSEINI PARSA AND PARTNERS QESHM GENERAL PARTNERSHIP COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58936,
+   "name": "MOHIESNEJAD, Khaled",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58937,
+   "name": "HOSSEINI PARSA, Seyyed Abbas",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58938,
+   "name": "BAVI, Sadegh",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58939,
+   "name": "BAVI AND PARTNERS EXCHANGE COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58940,
+   "name": "ABOLHASAN JALALI AND PARTNERS EXCHANGE COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "JALALI AND PARTNERS GENERAL PARTNERSHIP COMPANY"
+   ]
+  },
+  {
+   "uid": 58941,
+   "name": "JALALI, Abolhasan",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58942,
+   "name": "KATEBI, Milad",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58943,
+   "name": "SABETI, Amir",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58944,
+   "name": "MULLAH MOHAMMADI, Ensiyeh",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58945,
+   "name": "BORJI, Nazanin",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58946,
+   "name": "ALLAHYAR, Farzad",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58947,
+   "name": "VASIGHI MERAJI, Fatemeh",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "VASIGHI, Fatemeh"
+   ]
+  },
+  {
+   "uid": 58948,
+   "name": "SOHEIL AND SORUSH NAJAFZADEH AND PARTNERS COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58949,
+   "name": "ABDOLALIPUR, Azadeh",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ALIPUR, Azadeh"
+   ]
+  },
+  {
+   "uid": 58950,
+   "name": "NAJAFZADEH, Sorush",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "NAJAFZADEH, Sorosh"
+   ]
+  },
+  {
+   "uid": 58951,
+   "name": "NAJAFZADEH, Soheil",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "NAJAFZADEH, Suhail"
+   ]
+  },
+  {
+   "uid": 58952,
+   "name": "MIRMOHAMMADI, Mansureh",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58953,
+   "name": "JAZIREH INTERNATIONAL BANK COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "BANK-E BEINAMELALI JAZIREH"
+   ]
+  },
+  {
+   "uid": 58954,
+   "name": "CHABAHAR INTERNATIONAL BANK OVERSEAS COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58990,
+   "name": "RAZAVI, Sayyed Ruhollah",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "ROOHULLAH RAZAVI, Seyed",
+    "RAZAVI, Rouhollah",
+    "RAZAVI, Ruhollah"
+   ]
+  },
+  {
+   "uid": 58991,
+   "name": "TEJARAT GOSTAR ATLAS PARSIAN KISH COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58992,
+   "name": "FARZANEGAN ENERGY PARS COMPANY",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58997,
+   "name": "BANCO INTERNACIONAL DE COMERCIO S.A.",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   }
