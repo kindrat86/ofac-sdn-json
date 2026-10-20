@@ -1,12 +1,12 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19457 designated entries and 20196 alternate identities (39653 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-15 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19457 designated entries and 20196 alternate identities (39653 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-16 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-15",
- "retrieved": "2026-10-19",
+ "published": "2026-10-16",
+ "retrieved": "2026-10-20",
  "counts": {
   "entries": 19457,
   "alternateNames": 20196,
