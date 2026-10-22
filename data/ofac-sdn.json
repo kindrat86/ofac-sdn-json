@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19457 designated entries and 20196 alternate identities (39653 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-16 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19471 designated entries and 20192 alternate identities (39663 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-20 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-16",
- "retrieved": "2026-10-21",
+ "published": "2026-10-20",
+ "retrieved": "2026-10-22",
  "counts": {
-  "entries": 19457,
-  "alternateNames": 20196,
-  "totalNames": 39653
+  "entries": 19471,
+  "alternateNames": 20192,
+  "totalNames": 39663
  },
  "typeCounts": {
-  "entity": 10040,
-  "individual": 7516,
-  "vessel": 1559,
+  "entity": 10042,
+  "individual": 7519,
+  "vessel": 1568,
   "aircraft": 342
  },
  "topPrograms": [
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   1060
+   1078
   ],
   [
    "ILLICIT-DRUGS-EO14059",
@@ -79749,17 +79749,6 @@
    ]
   },
   {
-   "uid": 31042,
-   "name": "MOXING CARTOON",
-   "type": "entity",
-   "programs": [
-    "DPRK3"
-   ],
-   "alternateNames": [
-    "SHANGHAI MOXING CULTURAL MEDIA CO LTD"
-   ]
-  },
-  {
    "uid": 31082,
    "name": "ABOUZAID EL BAYEH, Juan Manuel",
    "type": "individual",
@@ -83382,18 +83371,6 @@
     "OLEKSIN, Aleksey",
     "ALEKSIN, Aliaksey",
     "ALEKSIN, Aliaksei"
-   ]
-  },
-  {
-   "uid": 32711,
-   "name": "RYBAKOV, Andrei Alekseevich",
-   "type": "individual",
-   "programs": [
-    "BELARUS"
-   ],
-   "alternateNames": [
-    "RYBAKOU, Andrei Aliakseevich",
-    "RYBAKOU, Andrei"
    ]
   },
   {
@@ -87654,26 +87631,6 @@
     "CHONGQING CITY NINGSE ANIMATION DEVELOPMENT CO., LTD.",
     "CHONGQING NINGSE CARTOON & ANIMATION DEVELOPMENT CO., LTD.",
     "CHONGQING NINGSE CARTOON AND ANIMATION DEVELOPMENT CO., LTD."
-   ]
-  },
-  {
-   "uid": 34024,
-   "name": "LU, Hezheng",
-   "type": "individual",
-   "programs": [
-    "DPRK3"
-   ],
-   "alternateNames": []
-  },
-  {
-   "uid": 34025,
-   "name": "SHANGHAI HONGMAN CARTOON AND ANIMATION DESIGN STUDIO",
-   "type": "entity",
-   "programs": [
-    "DPRK3"
-   ],
-   "alternateNames": [
-    "SHANGHAI HONGMAN ANIMATION DESIGN STUDIO"
    ]
   },
   {
@@ -207624,6 +207581,24 @@
    "alternateNames": []
   },
   {
+   "uid": 58810,
+   "name": "WHALES SHIPPING LINE LLC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58811,
+   "name": "AMIGOZ SINGAPORE PTE. LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58812,
    "name": "TINA 5",
    "type": "vessel",
@@ -207788,6 +207763,24 @@
    "alternateNames": []
   },
   {
+   "uid": 58873,
+   "name": "WHALES DIAMOND",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58874,
+   "name": "WHALES PEARL",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58930,
    "name": "MOHAMMADI, Zhila",
    "type": "individual",
@@ -207798,6 +207791,24 @@
     "MOHAMADI, Jela",
     "MOHAMMADI ALIABAD, Zhila"
    ]
+  },
+  {
+   "uid": 58931,
+   "name": "ROXETTE MARITIME SHIPPING AND TRADING S.A.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58932,
+   "name": "KARNAKIS AND KARNAKIS",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
   },
   {
    "uid": 58934,
@@ -207995,6 +208006,114 @@
    "uid": 58954,
    "name": "CHABAHAR INTERNATIONAL BANK OVERSEAS COMPANY",
    "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58955,
+   "name": "ANEMOS",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58956,
+   "name": "GLORIS",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58957,
+   "name": "PRIDE",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58958,
+   "name": "KARNAKIS KOSMAS, Sofianos",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58959,
+   "name": "KARNAKIS KOSMAS, Konstantinos",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58960,
+   "name": "KARNAKIS KOSMAS, Ioanis",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58961,
+   "name": "ORTEGA JONES, Pedro",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58962,
+   "name": "ORTEGA JONES, Roberto",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58963,
+   "name": "DESTINY",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58964,
+   "name": "FLAMINGO 1",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58965,
+   "name": "HARMONY",
+   "type": "vessel",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58966,
+   "name": "PRINCE",
+   "type": "vessel",
    "programs": [
     "IRAN-EO13902"
    ],
