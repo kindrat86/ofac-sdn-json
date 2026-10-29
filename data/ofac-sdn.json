@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19471 designated entries and 20192 alternate identities (39663 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-20 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19484 designated entries and 20204 alternate identities (39688 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-27 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-20",
- "retrieved": "2026-10-28",
+ "published": "2026-10-27",
+ "retrieved": "2026-10-29",
  "counts": {
-  "entries": 19471,
-  "alternateNames": 20192,
-  "totalNames": 39663
+  "entries": 19484,
+  "alternateNames": 20204,
+  "totalNames": 39688
  },
  "typeCounts": {
-  "entity": 10042,
-  "individual": 7519,
+  "entity": 10045,
+  "individual": 7529,
   "vessel": 1568,
   "aircraft": 342
  },
@@ -205125,6 +205125,17 @@
    ]
   },
   {
+   "uid": 58407,
+   "name": "ZIGAMA CREDIT AND SAVINGS SOCIETY",
+   "type": "entity",
+   "programs": [
+    "DRCONGO"
+   ],
+   "alternateNames": [
+    "ZIGAMA CREDIT AND SAVINGS BANK"
+   ]
+  },
+  {
    "uid": 58408,
    "name": "TSORIS, Georgios",
    "type": "individual",
@@ -207781,6 +207792,121 @@
    "alternateNames": []
   },
   {
+   "uid": 58879,
+   "name": "FIRST FINANCIAL AND TECHNICAL DEVELOPMENT CENTER",
+   "type": "entity",
+   "programs": [
+    "DPRK3"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58880,
+   "name": "KIM, Kyong Ju",
+   "type": "individual",
+   "programs": [
+    "DPRK3"
+   ],
+   "alternateNames": [
+    "KIM, Kyo'ng-chu"
+   ]
+  },
+  {
+   "uid": 58881,
+   "name": "RI, Thae Chol",
+   "type": "individual",
+   "programs": [
+    "DPRK3"
+   ],
+   "alternateNames": [
+    "RI, T'ae-ch'o'l"
+   ]
+  },
+  {
+   "uid": 58882,
+   "name": "SO, Hyong Jin",
+   "type": "individual",
+   "programs": [
+    "DPRK3"
+   ],
+   "alternateNames": [
+    "SO', Hyo'n-chin"
+   ]
+  },
+  {
+   "uid": 58883,
+   "name": "HAN, Yu Song",
+   "type": "individual",
+   "programs": [
+    "DPRK3"
+   ],
+   "alternateNames": [
+    "HAN, Yu-so'ng"
+   ]
+  },
+  {
+   "uid": 58884,
+   "name": "KIM, Sung Gwan",
+   "type": "individual",
+   "programs": [
+    "DPRK3"
+   ],
+   "alternateNames": [
+    "KIM, Su'ng-kwan"
+   ]
+  },
+  {
+   "uid": 58885,
+   "name": "HYON, Se Il",
+   "type": "individual",
+   "programs": [
+    "DPRK3"
+   ],
+   "alternateNames": [
+    "HYO'N, Se-il"
+   ]
+  },
+  {
+   "uid": 58886,
+   "name": "BOYKOV, Ilya Aleksandrovich",
+   "type": "individual",
+   "programs": [
+    "DPRK2"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58887,
+   "name": "KIM, Ki Hyok",
+   "type": "individual",
+   "programs": [
+    "DPRK2"
+   ],
+   "alternateNames": [
+    "KIM, Ki-hyo'k"
+   ]
+  },
+  {
+   "uid": 58888,
+   "name": "KIM, Hyo Dong",
+   "type": "individual",
+   "programs": [
+    "DPRK2"
+   ],
+   "alternateNames": [
+    "KIM, Hyo-tong"
+   ]
+  },
+  {
+   "uid": 58889,
+   "name": "OBERTAS, Vitold Viktorovich",
+   "type": "individual",
+   "programs": [
+    "DPRK2"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58930,
    "name": "MOHAMMADI, Zhila",
    "type": "individual",
@@ -208158,6 +208284,19 @@
     "CUBA-EO14404"
    ],
    "alternateNames": []
+  },
+  {
+   "uid": 59069,
+   "name": "MINISTRY OF DEFENCE OF THE REPUBLIC OF RWANDA",
+   "type": "entity",
+   "programs": [
+    "DRCONGO"
+   ],
+   "alternateNames": [
+    "RWANDAN MINISTRY OF DEFENCE",
+    "MOD OF THE REPUBLIC OF RWANDA",
+    "MINADEF OF THE REPUBLIC OF RWANDA"
+   ]
   }
  ]
 }
