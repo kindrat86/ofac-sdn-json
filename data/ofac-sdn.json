@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19484 designated entries and 20204 alternate identities (39688 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-10-27 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19499 designated entries and 20208 alternate identities (39707 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-11-02 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-10-27",
- "retrieved": "2026-11-04",
+ "published": "2026-11-02",
+ "retrieved": "2026-11-05",
  "counts": {
-  "entries": 19484,
-  "alternateNames": 20204,
-  "totalNames": 39688
+  "entries": 19499,
+  "alternateNames": 20208,
+  "totalNames": 39707
  },
  "typeCounts": {
-  "entity": 10045,
-  "individual": 7529,
+  "entity": 10055,
+  "individual": 7534,
   "vessel": 1568,
   "aircraft": 342
  },
@@ -41,7 +41,7 @@
   ],
   [
    "IRAN-EO13902",
-   1078
+   1092
   ],
   [
    "ILLICIT-DRUGS-EO14059",
@@ -199627,7 +199627,8 @@
    "type": "individual",
    "programs": [
     "NPWMD",
-    "IFSR"
+    "IFSR",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": [
     "TOLIBOV, Muhamadali",
@@ -203024,7 +203025,8 @@
    "type": "entity",
    "programs": [
     "NPWMD",
-    "IFSR"
+    "IFSR",
+    "IRAN-CON-ARMS-EO"
    ],
    "alternateNames": []
   },
@@ -208286,6 +208288,138 @@
    "alternateNames": []
   },
   {
+   "uid": 59050,
+   "name": "FUGO GROUND SERVICES INC",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "FUGO AVIATION"
+   ]
+  },
+  {
+   "uid": 59053,
+   "name": "SHARMA, Suniel Kumar",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "SHARMA, Suniel"
+   ]
+  },
+  {
+   "uid": 59054,
+   "name": "SHAHID, Jaspreet Preeti",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": [
+    "KAUR, Jaspreet"
+   ]
+  },
+  {
+   "uid": 59055,
+   "name": "OCEANIEK TECHNOLOGIES INDIA",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59056,
+   "name": "DHIMAN, Ashwani Kumar",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59057,
+   "name": "SINGH, Ishwinder",
+   "type": "individual",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59058,
+   "name": "ESWATINI MARITIME AFFAIRS AND INTERNATIONAL SHIP REGISTRY PTE. LTD.",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59059,
+   "name": "PRECEPT TRENDS PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59060,
+   "name": "POLYNESIA MARITIME PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59061,
+   "name": "ALEXARYA FINSERV PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59062,
+   "name": "ALEXARYA MEDIA AND ENTERTAINMENT PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59063,
+   "name": "ARYAVART SHIP MANAGEMENT PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59064,
+   "name": "VIHARABOATING PRIVATE LIMITED",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59065,
+   "name": "ARYAVART MARITIME AND EDUCATIONAL TRUST",
+   "type": "entity",
+   "programs": [
+    "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 59069,
    "name": "MINISTRY OF DEFENCE OF THE REPUBLIC OF RWANDA",
    "type": "entity",
@@ -208296,6 +208430,17 @@
     "RWANDAN MINISTRY OF DEFENCE",
     "MOD OF THE REPUBLIC OF RWANDA",
     "MINADEF OF THE REPUBLIC OF RWANDA"
+   ]
+  },
+  {
+   "uid": 59090,
+   "name": "DOMULLODZHANOV, Alisher",
+   "type": "individual",
+   "programs": [
+    "IRAN-CON-ARMS-EO"
+   ],
+   "alternateNames": [
+    "DOMULLODZHANOV, Alisher Hairulloevich"
    ]
   }
  ]
