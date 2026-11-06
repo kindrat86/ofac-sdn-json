@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19499 designated entries and 20208 alternate identities (39707 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-11-02 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19555 designated entries and 20214 alternate identities (39769 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-11-05 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-11-02",
- "retrieved": "2026-11-05",
+ "published": "2026-11-05",
+ "retrieved": "2026-11-06",
  "counts": {
-  "entries": 19499,
-  "alternateNames": 20208,
-  "totalNames": 39707
+  "entries": 19555,
+  "alternateNames": 20214,
+  "totalNames": 39769
  },
  "typeCounts": {
-  "entity": 10055,
-  "individual": 7534,
-  "vessel": 1568,
+  "entity": 10102,
+  "individual": 7541,
+  "vessel": 1570,
   "aircraft": 342
  },
  "topPrograms": [
@@ -65,7 +65,7 @@
   ],
   [
    "TCO",
-   430
+   475
   ],
   [
    "IRGC",
@@ -66225,11 +66225,10 @@
    "name": "ESPERANZA",
    "type": "vessel",
    "programs": [
-    "VENEZUELA-EO13850"
+    "VENEZUELA-EO13850",
+    "CUBA-EO14404"
    ],
-   "alternateNames": [
-    "NEDAS"
-   ]
+   "alternateNames": []
   },
   {
    "uid": 26705,
@@ -69421,10 +69420,11 @@
   },
   {
    "uid": 27425,
-   "name": "GIRALT",
+   "name": "LOURDES",
    "type": "vessel",
    "programs": [
-    "VENEZUELA-EO13850"
+    "VENEZUELA-EO13850",
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   },
@@ -69433,10 +69433,12 @@
    "name": "CAROIL TRANSPORT MARINE LTD",
    "type": "entity",
    "programs": [
-    "VENEZUELA-EO13850"
+    "VENEZUELA-EO13850",
+    "CUBA-EO14404"
    ],
    "alternateNames": [
-    "CAROIL TRANSPORT MARINE LIMITED"
+    "CAROIL TRANSPORT MARINE LIMITED",
+    "FRISIAN FAITH SHIPPING COMPANY LIMITED"
    ]
   },
   {
@@ -69477,10 +69479,11 @@
   },
   {
    "uid": 27431,
-   "name": "CARLOTA C",
+   "name": "MARIA CRISTINA",
    "type": "vessel",
    "programs": [
-    "VENEZUELA-EO13850"
+    "VENEZUELA-EO13850",
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   },
@@ -78038,7 +78041,8 @@
    "name": "CEIEC",
    "type": "entity",
    "programs": [
-    "VENEZUELA"
+    "VENEZUELA",
+    "CUBA-EO14404"
    ],
    "alternateNames": [
     "CHINA NATIONAL ELECTRONICS IMPORT AND EXPORT CORPORATION",
@@ -206435,6 +206439,78 @@
    ]
   },
   {
+   "uid": 58563,
+   "name": "ASIAN WELFARE LOTTERIES CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58564,
+   "name": "CB GENERAL INSURANCE PLC",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58565,
+   "name": "CAMBODIAN RESOURCE ENERGY DEVELOPMENT CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58566,
+   "name": "CAMBODIAN UNITE WEI YE INVESTMENT CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58567,
+   "name": "DT ZHI ZAO CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58568,
+   "name": "FIRST AQUATIC INDUSTRIAL CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58569,
+   "name": "MO NET BEAUTY CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58570,
+   "name": "PRINCE INTERNATIONAL AIRLINES CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58571,
    "name": "INTERNATIONAL DEVELOPMENT BANK FOR INVESTMENT AND FINANCE",
    "type": "entity",
@@ -206446,12 +206522,66 @@
    ]
   },
   {
+   "uid": 58572,
+   "name": "RICHENG PROPERTY DEVELOPER CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58573,
+   "name": "TIAN XU INTERNATIONAL TECHNOLOGY PLC",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58574,
+   "name": "ZHX PRINTING EQUIPMENT CAMBODIA CO LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58575,
+   "name": "QIU, Yong",
+   "type": "individual",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58595,
+   "name": "HE, Yujing",
+   "type": "individual",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58596,
    "name": "TAJAMMAL, Waseem Pasha",
    "type": "individual",
    "programs": [
     "NPWMD",
     "IFSR"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58597,
+   "name": "SUPER LIGHT SPEED KH TECHNOLOGY CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
    ],
    "alternateNames": []
   },
@@ -206584,8 +206714,46 @@
    "alternateNames": []
   },
   {
+   "uid": 58625,
+   "name": "PANG, Visal",
+   "type": "individual",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": [
+    "PANG, Weizhi"
+   ]
+  },
+  {
    "uid": 58626,
    "name": "A7 NETWORK",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58627,
+   "name": "CAMBODIA FIRST UNITE CONSTRUCTION GROUP CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58628,
+   "name": "FIRST UNITE INTERNATIONAL LOGISTICS CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58629,
+   "name": "FIRST UNITE NETWORKS ENTERTAINMENT CO., LTD.",
    "type": "entity",
    "programs": [
     "TCO"
@@ -206611,6 +206779,105 @@
    "programs": [
     "IRAN",
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58632,
+   "name": "FIRST UNITE PROPERTY CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58636,
+   "name": "FIRST UNITE DECORATION CAMBODIA CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58637,
+   "name": "CAMBODIAN FIRST UNITE CONSTRUCTION MACHINERY CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58638,
+   "name": "LINKEDUS TECHNOLOGY CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58639,
+   "name": "CAMBO DUTY FREE MERCHANDISE CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58640,
+   "name": "MARCO POLO HOTEL CO. LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58641,
+   "name": "U-LIFE GO NOW CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58642,
+   "name": "U-LIFE KH SUPER APP CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58644,
+   "name": "MERITWISE GROUP PUBLIC LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58645,
+   "name": "CHEN HUA HOLDINGS PTE LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58646,
+   "name": "GREENMEADOWS PROPERTIES SDN BHD",
+   "type": "entity",
+   "programs": [
+    "TCO"
    ],
    "alternateNames": []
   },
@@ -206696,6 +206963,150 @@
    "alternateNames": [
     "TABATABAEI, Seyed Asghar Alizadeh"
    ]
+  },
+  {
+   "uid": 58655,
+   "name": "ZHAO, Mengyao",
+   "type": "individual",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58656,
+   "name": "GREENBAY MULTI MEDIA PTE LTD",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58657,
+   "name": "SUN SPEED HOLDINGS LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58658,
+   "name": "PREMIUM FINANCIAL LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58659,
+   "name": "GLAD VAST LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58660,
+   "name": "GLAD SPARKLE LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58661,
+   "name": "GLAD HARVEST LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58662,
+   "name": "GLAD GLORY LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58663,
+   "name": "DIRECT ASTUTE HK LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58664,
+   "name": "DIRECT ASTUTE LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58665,
+   "name": "SOLAR SCAPE FINANCE LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58666,
+   "name": "SOLAR SCAPE LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58667,
+   "name": "VICTORY FLORA LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58668,
+   "name": "WIN APPLAUSE LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58669,
+   "name": "CELESTIAL DRIVE LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58670,
+   "name": "SINO SAGACIOUS LIMITED",
+   "type": "entity",
+   "programs": [
+    "TCO"
+   ],
+   "alternateNames": []
   },
   {
    "uid": 58693,
@@ -207909,6 +208320,76 @@
    "alternateNames": []
   },
   {
+   "uid": 58890,
+   "name": "RODRIGUEZ LOPEZ CALLEJA, Guillermo Faustino",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58910,
+   "name": "GLORIA C",
+   "type": "vessel",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58911,
+   "name": "TENTACOOL COMMERCIAL INC",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58912,
+   "name": "RODRIGUEZ LASTRES, Any",
+   "type": "individual",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58913,
+   "name": "EMPRESA IMPORTADORA Y EXPORTADORA DE PRODUCTOS DE LA ELECTRONICA Y LAS COMUNICACIONES",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "CUBAELECTRONICA"
+   ]
+  },
+  {
+   "uid": 58915,
+   "name": "EMPRESA COMERCIALIZADORA DE SERVICIOS TECNICOS Y TECNOLOGICOS",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "TECNOSIME"
+   ]
+  },
+  {
+   "uid": 58917,
+   "name": "BEIJING H AND C TECHNOLOGIES CO., LTD",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "BEIJING HUACHENG HAOPU TECHNOLOGY CO, LTD",
+    "BEIJING H&C TECHNOLOGIES CO., LTD"
+   ]
+  },
+  {
    "uid": 58930,
    "name": "MOHAMMADI, Zhila",
    "type": "individual",
@@ -208299,6 +208780,15 @@
    ]
   },
   {
+   "uid": 59052,
+   "name": "CHUI, Kok Wa",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 59053,
    "name": "SHARMA, Suniel Kumar",
    "type": "individual",
@@ -208416,6 +208906,35 @@
    "type": "entity",
    "programs": [
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59066,
+   "name": "INTERNACIONAL MARITIMA SA",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59067,
+   "name": "PETROLEOS MARITIMOS DEL CARIBE S.A.",
+   "type": "entity",
+   "programs": [
+    "CUBA-EO14404"
+   ],
+   "alternateNames": [
+    "PETROMARCA S.A."
+   ]
+  },
+  {
+   "uid": 59068,
+   "name": "EMILIA",
+   "type": "vessel",
+   "programs": [
+    "CUBA-EO14404"
    ],
    "alternateNames": []
   },

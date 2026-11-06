@@ -1,21 +1,21 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19499 designated entries and 20208 alternate identities (39707 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-11-02 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19555 designated entries and 20214 alternate identities (39769 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-11-05 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-11-02",
- "retrieved": "2026-11-05",
+ "published": "2026-11-05",
+ "retrieved": "2026-11-06",
  "counts": {
-  "entries": 19499,
-  "alternateNames": 20208,
-  "totalNames": 39707
+  "entries": 19555,
+  "alternateNames": 20214,
+  "totalNames": 39769
  },
  "typeCounts": {
-  "entity": 10055,
-  "individual": 7534,
-  "vessel": 1568,
+  "entity": 10102,
+  "individual": 7541,
+  "vessel": 1570,
   "aircraft": 342
  },
  "topPrograms": [
@@ -65,7 +65,7 @@
   ],
   [
    "TCO",
-   430
+   475
   ],
   [
    "IRGC",
@@ -111,7 +111,7 @@
   }
  ],
  "bytes": {
-  "json": 3775993,
-  "csv": 1679485
+  "json": 3784712,
+  "csv": 1682616
  }
 }
