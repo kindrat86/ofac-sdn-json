@@ -1,20 +1,20 @@
 {
  "name": "OFAC Specially Designated Nationals (SDN) List — machine-readable",
- "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19565 designated entries and 20233 alternate identities (39798 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-11-12 by OFAC.",
+ "description": "The U.S. Treasury OFAC SDN list parsed into JSON and CSV: 19595 designated entries and 20250 alternate identities (39845 names total), each with its OFAC uid, entity type and sanctions programs. Published 2026-11-18 by OFAC.",
  "source": "U.S. Treasury OFAC — Specially Designated Nationals and Blocked Persons List (SDN)",
  "sourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
  "altSourceUrl": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
  "officialSearchUrl": "https://sanctionssearch.ofac.treas.gov/",
- "published": "2026-11-12",
- "retrieved": "2026-11-18",
+ "published": "2026-11-18",
+ "retrieved": "2026-11-19",
  "counts": {
-  "entries": 19565,
-  "alternateNames": 20233,
-  "totalNames": 39798
+  "entries": 19595,
+  "alternateNames": 20250,
+  "totalNames": 39845
  },
  "typeCounts": {
-  "entity": 10112,
-  "individual": 7541,
+  "entity": 10122,
+  "individual": 7561,
   "vessel": 1570,
   "aircraft": 342
  },
@@ -25,7 +25,7 @@
   ],
   [
    "SDGT",
-   3363
+   3369
   ],
   [
    "IFSR",
@@ -45,7 +45,7 @@
   ],
   [
    "ILLICIT-DRUGS-EO14059",
-   788
+   808
   ],
   [
    "GLOMAG",
@@ -13983,10 +13983,11 @@
   },
   {
    "uid": 10902,
-   "name": "'NDRANGHETA ORGANIZATION",
+   "name": "'NDRANGHETA",
    "type": "entity",
    "programs": [
-    "SDNTK"
+    "SDNTK",
+    "ILLICIT-DRUGS-EO14059"
    ],
    "alternateNames": []
   },
@@ -208006,6 +208007,194 @@
    "alternateNames": []
   },
   {
+   "uid": 58791,
+   "name": "FIGLIOMENI, Angelo",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58792,
+   "name": "FIGLIOMENI, Cosimo",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58793,
+   "name": "COMMISSO, Francesco",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58794,
+   "name": "COMMISSO, Rocco Remo",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58795,
+   "name": "VESCIO SR., Luigi",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "VESCIO, Lui"
+   ]
+  },
+  {
+   "uid": 58796,
+   "name": "DEMARIA, Vincenzo",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "DEMARIA, Jimmy"
+   ]
+  },
+  {
+   "uid": 58797,
+   "name": "FRATELLI VESCIO FUNERAL HOMES LTD.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58798,
+   "name": "VESCIO FUNERAL HOMES INC.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58799,
+   "name": "VESCIO FUNERAL HOME MAPLE INC.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58800,
+   "name": "VESCIO, Rose",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "VESCIO, Rosa Maria"
+   ]
+  },
+  {
+   "uid": 58801,
+   "name": "VESCIO JR., Luigi",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58802,
+   "name": "VESCIO, Laura",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "VESCIO-SACCO, Laura"
+   ]
+  },
+  {
+   "uid": 58803,
+   "name": "PHANTOM LIMOUSINE SERVICES INC.",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58804,
+   "name": "COMANCHERO OUTLAW MOTORCYCLE GANG",
+   "type": "entity",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "COMANCHERO MOTORCYCLE CLUB"
+   ]
+  },
+  {
+   "uid": 58805,
+   "name": "COFFEN, Marco Francis",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "DE BERNARDO, Marco Sullivan"
+   ]
+  },
+  {
+   "uid": 58806,
+   "name": "VARELA VILLAR, Alexandre",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "VARE, Alex",
+    "VARELA, Alex"
+   ]
+  },
+  {
+   "uid": 58807,
+   "name": "MEEHAN, Allan John Norman",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": [
+    "MEEHAN, Allan"
+   ]
+  },
+  {
+   "uid": 58808,
+   "name": "NAUFAHU, Pasilika",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58809,
+   "name": "NAUFAHU, Vetekina",
+   "type": "individual",
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ],
+   "alternateNames": []
+  },
+  {
    "uid": 58810,
    "name": "WHALES SHIPPING LINE LLC",
    "type": "entity",
@@ -208184,6 +208373,53 @@
    "type": "vessel",
    "programs": [
     "IRAN-EO13902"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58850,
+   "name": "WAH, Saw Shwe",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": [
+    "WAH, Maung Shwe"
+   ]
+  },
+  {
+   "uid": 58851,
+   "name": "ONE, Saw A",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58870,
+   "name": "ZHAO, Hui",
+   "type": "individual",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58871,
+   "name": "BEI FANG BO LIN CONSTRUCTION DECORATION CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "CYBER4"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 58872,
+   "name": "ZHZ INVESTMENT CONSULTING CO., LTD.",
+   "type": "entity",
+   "programs": [
+    "CYBER4"
    ],
    "alternateNames": []
   },
@@ -209081,6 +209317,72 @@
    ],
    "alternateNames": [
     "KANATA MD INC"
+   ]
+  },
+  {
+   "uid": 59173,
+   "name": "KHECHEN, Hassan",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "KHASHAN, Hassan Muhammad",
+    "KHASHAN, Hassan"
+   ]
+  },
+  {
+   "uid": 59174,
+   "name": "KHECHEN, Ibrahim",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": []
+  },
+  {
+   "uid": 59175,
+   "name": "GOLD GLOBAL COMPANY",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "GOLD GLOBAL COMPANY HASSAN MOHAMAD KHECHEN AND HIS PARTNERS"
+   ]
+  },
+  {
+   "uid": 59176,
+   "name": "SANKARI GOLD KUYUMCULUK TICARET LIMITED SIRKETI",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "SANKARI GOLD JEWELRY TRADE LIMITED COMPANY"
+   ]
+  },
+  {
+   "uid": 59188,
+   "name": "WA TA'AWANU ASSOCIATION",
+   "type": "entity",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "WA TAAWANOU"
+   ]
+  },
+  {
+   "uid": 59189,
+   "name": "CHOUMAN, Afif Abdel Rida",
+   "type": "individual",
+   "programs": [
+    "SDGT"
+   ],
+   "alternateNames": [
+    "SHUMAN, Afif Abd-Al-Rida",
+    "AL-FADL, Abu"
    ]
   }
  ]
